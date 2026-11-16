@@ -1,5 +1,7 @@
 # RC-Inspect: risk-controlled decisions for lightweight defect detectors
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24269095.svg)](https://doi.org/10.5281/zenodo.24269095)
+
 Code, split lists, cached predictions and result files for the paper
 
 > Lim CY, Lim JMY, Kalavally V, Lim WS. RC-Inspect: A lightweight risk-controlled deep learning framework for
@@ -103,4 +105,5 @@ under the terms set by their authors.
 
 ## Citation
 
-See `CITATION.cff`. Please cite the paper and this archive.
+See `CITATION.cff`. Please cite the paper and this archive: https://doi.org/10.5281/zenodo.24269095 (all
+versions; v1.0.0 is https://doi.org/10.5281/zenodo.24269096).

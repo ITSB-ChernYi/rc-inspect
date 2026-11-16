@@ -5,6 +5,8 @@ type: software
 version: 1.0.0
 date-released: 2026-11-16
 license: MIT
+doi: 10.5281/zenodo.24269095
+repository-code: "https://github.com/ITSB-ChernYi/rc-inspect"
 authors:
   - family-names: Lim
     given-names: Chern Yi
