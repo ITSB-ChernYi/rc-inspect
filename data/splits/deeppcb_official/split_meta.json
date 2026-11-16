@@ -1,0 +1,75 @@
+{
+ "mode": "official",
+ "seed": 0,
+ "n_items": 1500,
+ "splits": {
+  "train": {
+   "n": 800,
+   "groups": [
+    "group00041",
+    "group13000",
+    "group20085",
+    "group44000",
+    "group50600",
+    "group77000",
+    "group92000"
+   ],
+   "boxes_per_class": [
+    1051,
+    841,
+    1089,
+    921,
+    812,
+    845
+   ],
+   "sha256": "989c1430fa80e69f82c73509cc6c27dee9b58290a24be90020f8af1d98a53d19"
+  },
+  "val": {
+   "n": 200,
+   "groups": [
+    "group00041",
+    "group13000",
+    "group20085",
+    "group44000",
+    "group50600",
+    "group77000",
+    "group92000"
+   ],
+   "boxes_per_class": [
+    232,
+    187,
+    290,
+    221,
+    198,
+    186
+   ],
+   "sha256": "9be7879baf513d7dc6111444aa4524828402f9be26309b4dcd30c9eefd6cf618"
+  },
+  "test": {
+   "n": 500,
+   "groups": [
+    "group00041",
+    "group12000",
+    "group12100",
+    "group12300",
+    "group13000",
+    "group20085",
+    "group44000",
+    "group50600",
+    "group77000",
+    "group90100",
+    "group92000"
+   ],
+   "boxes_per_class": [
+    659,
+    478,
+    586,
+    483,
+    464,
+    470
+   ],
+   "sha256": "671da7d35f843e6b81e9bab3d49edc0cc2db02bdffd1e19f1d57d3b869df11c3"
+  }
+ },
+ "test_images_from_designs_seen_in_train_or_val": 168
+}

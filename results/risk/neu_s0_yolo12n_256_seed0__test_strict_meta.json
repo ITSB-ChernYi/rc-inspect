@@ -1,0 +1,41 @@
+{
+ "run": "neu_s0_yolo12n_256_seed0",
+ "pool": "test",
+ "n_images": 360,
+ "n_defective": 360,
+ "n_gt": 845,
+ "size_edges_px2": [
+  2758.0,
+  7056.000000000002
+ ],
+ "lam_f1_val": 0.21,
+ "reps": 200,
+ "delta": 0.1,
+ "order": "asc",
+ "class_escape_crc_class": {
+  "0.05": [
+   0.0492,
+   0.087,
+   0.0216,
+   0.0632,
+   0.0502,
+   0.0137
+  ],
+  "0.1": [
+   0.0618,
+   0.0906,
+   0.0799,
+   0.0805,
+   0.077,
+   0.0805
+  ]
+ },
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ]
+}

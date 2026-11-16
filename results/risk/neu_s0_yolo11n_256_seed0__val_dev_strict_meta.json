@@ -1,0 +1,15 @@
+{
+ "run": "neu_s0_yolo11n_256_seed0",
+ "pool": "val",
+ "n_images": 361,
+ "n_defective": 361,
+ "n_gt": 811,
+ "size_edges_px2": [
+  2758.0,
+  7056.000000000002
+ ],
+ "lam_f1_val": 0.27,
+ "reps": 50,
+ "delta": 0.1,
+ "order": "asc"
+}

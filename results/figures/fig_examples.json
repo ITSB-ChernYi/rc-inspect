@@ -1,0 +1,59 @@
+{
+ "NEU-DET": {
+  "run": "gpu_neu_s0_yolo11n_256_seed0",
+  "lam": 0.095,
+  "rule": "resid",
+  "rho": 0.7,
+  "n_eval": 180,
+  "counts": {
+   "Rejected,\nall defects found": 63,
+   "Review:\nselected review rule": 100,
+   "Review:\nquality gate": 6,
+   "Missed defect\n(accepted or rejected)": 11
+  },
+  "shown": {
+   "Rejected,\nall defects found": "inclusion_116",
+   "Review:\nselected review rule": "crazing_101",
+   "Review:\nquality gate": "inclusion_222",
+   "Missed defect\n(accepted or rejected)": "inclusion_152"
+  }
+ },
+ "GC10-DET": {
+  "run": "gpu_gc10g_s0_yolo11n_640_seed0",
+  "lam": 0.03,
+  "rule": "maxconf",
+  "rho": 0.6,
+  "n_eval": 234,
+  "counts": {
+   "Rejected,\nall defects found": 76,
+   "Review:\nselected review rule": 136,
+   "Review:\nquality gate": 15,
+   "Missed defect\n(accepted or rejected)": 7
+  },
+  "shown": {
+   "Rejected,\nall defects found": "img_01_3436815300_00473",
+   "Review:\nselected review rule": "img_01_3436814600_00259",
+   "Review:\nquality gate": "img_01_425006800_00261",
+   "Missed defect\n(accepted or rejected)": "img_02_425391000_00490"
+  }
+ },
+ "DeepPCB": {
+  "run": "gpu_pcbg_s0_yolo11n_640_seed0",
+  "lam": 0.365,
+  "rule": "maxconf",
+  "rho": 0.1,
+  "n_eval": 160,
+  "counts": {
+   "Rejected,\nall defects found": 124,
+   "Review:\nselected review rule": 0,
+   "Review:\nquality gate": 3,
+   "Missed defect\n(accepted or rejected)": 33
+  },
+  "shown": {
+   "Rejected,\nall defects found": "12100000",
+   "Review:\nselected review rule": null,
+   "Review:\nquality gate": "90100035",
+   "Missed defect\n(accepted or rejected)": "12100003"
+  }
+ }
+}

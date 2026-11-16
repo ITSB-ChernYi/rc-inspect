@@ -1,0 +1,32 @@
+# Training jobs for the GPU PC (scripts/pc_queue.py). Every remaining job plus a GPU re-run of the seed-0 jobs
+# already trained on the cloud CPU, so all main results come from one device; the CPU seed-0 runs become a
+# device-reproducibility check. Paths under /home/user/obj1data are mapped to $OBJ1DATA by the runner.
+gpu_neu_s0_yolo11n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 0
+gpu_neu_s0_yolo12n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 0
+gpu_neu_s0_secfull_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 0
+gpu_mt_s0_yolo11n_320_seed0|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 0 --imgsz 320
+gpu_neu_s0_yolov8n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 0
+gpu_neu_s0_v12nbb_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 0
+gpu_neu_s0_secnosofl_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 0
+gpu_neu_s0_v12nbbsofl_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --sofl full --bb-only --seed 0
+gpu_neu_s0_hcsa_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true}' --bb-only --seed 0
+gpu_neu_s0_ewbifpn_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"neck": "ewbifpn"}' --bb-only --seed 0
+gpu_neu_s0_bifpn_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"neck": "bifpn"}' --bb-only --seed 0
+gpu_gc10g_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+gpu_gc10r_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+gpu_neu_s0_yolo11n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 1
+gpu_neu_s0_yolo12n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 1
+gpu_neu_s0_secfull_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 1
+gpu_mt_s0_yolo11n_320_seed1|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 1 --imgsz 320
+gpu_neu_s0_yolov8n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 1
+gpu_neu_s0_v12nbb_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 1
+gpu_neu_s0_secnosofl_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 1
+gpu_gc10g_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40
+gpu_gc10r_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40
+gpu_neu_s0_yolo11n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 2
+gpu_neu_s0_yolo12n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 2
+gpu_neu_s0_secfull_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 2
+gpu_mt_s0_yolo11n_320_seed2|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 2 --imgsz 320
+gpu_neu_s0_yolov8n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 2
+gpu_neu_s0_v12nbb_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 2
+gpu_neu_s0_secnosofl_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 2

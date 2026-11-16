@@ -1,0 +1,61 @@
+{
+ "mode": "grouped",
+ "seed": 0,
+ "n_items": 1500,
+ "splits": {
+  "train": {
+   "n": 871,
+   "groups": [
+    "group00041",
+    "group12300",
+    "group20085",
+    "group77000",
+    "group92000"
+   ],
+   "boxes_per_class": [
+    1176,
+    937,
+    1154,
+    953,
+    836,
+    832
+   ],
+   "sha256": "4adc16b5d982b09515cc921e9602ae5c1c9a922315f352f4c3949d5d939bed40"
+  },
+  "val": {
+   "n": 309,
+   "groups": [
+    "group12000",
+    "group13000",
+    "group50600"
+   ],
+   "boxes_per_class": [
+    319,
+    230,
+    411,
+    349,
+    326,
+    341
+   ],
+   "sha256": "4b820a3e6ac7b875fdc9437215c53ea4c9acf74e1c9e8904e6027c6a1f69ce6a"
+  },
+  "test": {
+   "n": 320,
+   "groups": [
+    "group12100",
+    "group44000",
+    "group90100"
+   ],
+   "boxes_per_class": [
+    447,
+    339,
+    400,
+    323,
+    312,
+    328
+   ],
+   "sha256": "6064796df083e196e1dd6f029dfab927a067247ce30a3b73e653d36770b522bd"
+  }
+ },
+ "test_images_from_designs_seen_in_train_or_val": 0
+}

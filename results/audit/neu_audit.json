@@ -1,0 +1,1959 @@
+{
+ "n_images": 1800,
+ "n_annotation_files": 1800,
+ "n_boxes": 4189,
+ "images_per_class": {
+  "crazing": 300,
+  "inclusion": 300,
+  "patches": 300,
+  "pitted_surface": 300,
+  "rolled-in_scale": 300,
+  "scratches": 300
+ },
+ "boxes_per_class": {
+  "inclusion": 1011,
+  "patches": 881,
+  "crazing": 689,
+  "rolled-in_scale": 628,
+  "scratches": 548,
+  "pitted_surface": 432
+ },
+ "boxes_per_image": {
+  "mean": 2.3272222222222223,
+  "max": 9
+ },
+ "image_sizes": {
+  "200x200": 1800
+ },
+ "all_rgb_channels_equal": true,
+ "problems": [
+  {
+   "stem": "crazing_104",
+   "issue": "label patches != file class crazing",
+   "box": [
+    78,
+    169,
+    118,
+    200
+   ]
+  },
+  {
+   "stem": "crazing_105",
+   "issue": "label inclusion != file class crazing",
+   "box": [
+    5,
+    91,
+    121,
+    125
+   ]
+  },
+  {
+   "stem": "crazing_112",
+   "issue": "label patches != file class crazing",
+   "box": [
+    124,
+    34,
+    165,
+    112
+   ]
+  },
+  {
+   "stem": "crazing_152",
+   "issue": "label patches != file class crazing",
+   "box": [
+    156,
+    136,
+    191,
+    168
+   ]
+  },
+  {
+   "stem": "crazing_20",
+   "issue": "label patches != file class crazing",
+   "box": [
+    140,
+    29,
+    178,
+    65
+   ]
+  },
+  {
+   "stem": "patches_155",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    75,
+    42,
+    130,
+    120
+   ]
+  },
+  {
+   "stem": "patches_155",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    154,
+    108,
+    182,
+    143
+   ]
+  },
+  {
+   "stem": "patches_167",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    176,
+    154,
+    200,
+    180
+   ]
+  },
+  {
+   "stem": "patches_167",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    149,
+    126,
+    170,
+    145
+   ]
+  },
+  {
+   "stem": "patches_168",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    1,
+    108,
+    30,
+    149
+   ]
+  },
+  {
+   "stem": "patches_168",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    79,
+    54,
+    104,
+    74
+   ]
+  },
+  {
+   "stem": "patches_168",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    149,
+    138,
+    196,
+    169
+   ]
+  },
+  {
+   "stem": "patches_168",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    161,
+    78,
+    200,
+    112
+   ]
+  },
+  {
+   "stem": "patches_171",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    144,
+    93,
+    175,
+    119
+   ]
+  },
+  {
+   "stem": "patches_171",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    156,
+    47,
+    198,
+    75
+   ]
+  },
+  {
+   "stem": "patches_172",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    171,
+    1,
+    196,
+    21
+   ]
+  },
+  {
+   "stem": "patches_172",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    160,
+    150,
+    200,
+    184
+   ]
+  },
+  {
+   "stem": "patches_174",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    1,
+    122,
+    21,
+    178
+   ]
+  },
+  {
+   "stem": "patches_174",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    102,
+    88,
+    125,
+    111
+   ]
+  },
+  {
+   "stem": "patches_175",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    74,
+    7,
+    112,
+    27
+   ]
+  },
+  {
+   "stem": "patches_175",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    97,
+    143,
+    138,
+    199
+   ]
+  },
+  {
+   "stem": "patches_176",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    2,
+    17,
+    23,
+    40
+   ]
+  },
+  {
+   "stem": "patches_176",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    1,
+    107,
+    24,
+    172
+   ]
+  },
+  {
+   "stem": "patches_176",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    162,
+    4,
+    182,
+    22
+   ]
+  },
+  {
+   "stem": "patches_179",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    50,
+    165,
+    82,
+    192
+   ]
+  },
+  {
+   "stem": "patches_179",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    57,
+    23,
+    92,
+    53
+   ]
+  },
+  {
+   "stem": "patches_184",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    84,
+    62,
+    110,
+    99
+   ]
+  },
+  {
+   "stem": "patches_184",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    92,
+    185,
+    121,
+    200
+   ]
+  },
+  {
+   "stem": "patches_184",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    127,
+    93,
+    137,
+    144
+   ]
+  },
+  {
+   "stem": "patches_187",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    32,
+    109,
+    53,
+    136
+   ]
+  },
+  {
+   "stem": "patches_187",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    46,
+    156,
+    64,
+    179
+   ]
+  },
+  {
+   "stem": "patches_187",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    165,
+    35,
+    190,
+    64
+   ]
+  },
+  {
+   "stem": "patches_187",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    175,
+    91,
+    190,
+    113
+   ]
+  },
+  {
+   "stem": "patches_187",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    181,
+    179,
+    200,
+    199
+   ]
+  },
+  {
+   "stem": "patches_188",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    1,
+    19,
+    25,
+    39
+   ]
+  },
+  {
+   "stem": "patches_188",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    112,
+    91,
+    136,
+    124
+   ]
+  },
+  {
+   "stem": "patches_190",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    136,
+    58,
+    160,
+    99
+   ]
+  },
+  {
+   "stem": "patches_190",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    172,
+    71,
+    194,
+    97
+   ]
+  },
+  {
+   "stem": "patches_190",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    6,
+    12,
+    27,
+    43
+   ]
+  },
+  {
+   "stem": "patches_195",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    113,
+    77,
+    144,
+    104
+   ]
+  },
+  {
+   "stem": "patches_195",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    83,
+    20,
+    109,
+    43
+   ]
+  },
+  {
+   "stem": "patches_198",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    1,
+    21,
+    21,
+    50
+   ]
+  },
+  {
+   "stem": "patches_199",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    55,
+    148,
+    116,
+    195
+   ]
+  },
+  {
+   "stem": "patches_201",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    63,
+    140,
+    131,
+    197
+   ]
+  },
+  {
+   "stem": "patches_202",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    101,
+    121,
+    133,
+    147
+   ]
+  },
+  {
+   "stem": "patches_206",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    123,
+    99,
+    141,
+    126
+   ]
+  },
+  {
+   "stem": "patches_210",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    109,
+    149,
+    147,
+    188
+   ]
+  },
+  {
+   "stem": "patches_211",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    147,
+    25,
+    184,
+    77
+   ]
+  },
+  {
+   "stem": "patches_227",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    166,
+    164,
+    194,
+    188
+   ]
+  },
+  {
+   "stem": "patches_230",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    146,
+    53,
+    177,
+    109
+   ]
+  },
+  {
+   "stem": "patches_245",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    176,
+    3,
+    199,
+    41
+   ]
+  },
+  {
+   "stem": "patches_249",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    22,
+    74,
+    50,
+    144
+   ]
+  },
+  {
+   "stem": "patches_259",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    34,
+    47,
+    68,
+    81
+   ]
+  },
+  {
+   "stem": "patches_259",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    171,
+    8,
+    199,
+    26
+   ]
+  },
+  {
+   "stem": "patches_260",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    166,
+    78,
+    196,
+    145
+   ]
+  },
+  {
+   "stem": "patches_265",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    135,
+    167,
+    174,
+    198
+   ]
+  },
+  {
+   "stem": "pitted_surface_155",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    1,
+    28,
+    61
+   ]
+  },
+  {
+   "stem": "pitted_surface_155",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    78,
+    1,
+    108,
+    20
+   ]
+  },
+  {
+   "stem": "pitted_surface_156",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    78,
+    36,
+    113
+   ]
+  },
+  {
+   "stem": "pitted_surface_159",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    174,
+    1,
+    200,
+    48
+   ]
+  },
+  {
+   "stem": "pitted_surface_160",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    153,
+    1,
+    198,
+    68
+   ]
+  },
+  {
+   "stem": "pitted_surface_161",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    92,
+    1,
+    197,
+    197
+   ]
+  },
+  {
+   "stem": "pitted_surface_162",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    159,
+    1,
+    200,
+    48
+   ]
+  },
+  {
+   "stem": "pitted_surface_165",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    155,
+    21,
+    195,
+    187
+   ]
+  },
+  {
+   "stem": "pitted_surface_166",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    96,
+    1,
+    123,
+    127
+   ]
+  },
+  {
+   "stem": "pitted_surface_170",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    99,
+    74,
+    146,
+    143
+   ]
+  },
+  {
+   "stem": "pitted_surface_170",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    142,
+    162,
+    172,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_171",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    26,
+    136,
+    70,
+    198
+   ]
+  },
+  {
+   "stem": "pitted_surface_171",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    2,
+    50,
+    41,
+    116
+   ]
+  },
+  {
+   "stem": "pitted_surface_172",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    20,
+    166,
+    72,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_172",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    155,
+    157,
+    200,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_173",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    98,
+    176,
+    147,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_173",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    152,
+    155,
+    196,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_174",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    174,
+    46,
+    200,
+    115
+   ]
+  },
+  {
+   "stem": "pitted_surface_174",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    37,
+    173,
+    95,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_174",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    102,
+    149,
+    153,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_197",
+   "issue": "label inclusion != file class pitted_surface",
+   "box": [
+    176,
+    92,
+    200,
+    116
+   ]
+  },
+  {
+   "stem": "pitted_surface_205",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    179,
+    129,
+    200,
+    193
+   ]
+  },
+  {
+   "stem": "pitted_surface_207",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    161,
+    8,
+    199,
+    87
+   ]
+  },
+  {
+   "stem": "pitted_surface_207",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    134,
+    136,
+    200,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_208",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    75,
+    138,
+    147,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_208",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    149,
+    75,
+    200,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_209",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    173,
+    4,
+    200,
+    38
+   ]
+  },
+  {
+   "stem": "pitted_surface_210",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    107,
+    1,
+    157,
+    17
+   ]
+  },
+  {
+   "stem": "pitted_surface_210",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    179,
+    1,
+    200,
+    42
+   ]
+  },
+  {
+   "stem": "pitted_surface_210",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    170,
+    102,
+    200,
+    164
+   ]
+  },
+  {
+   "stem": "pitted_surface_210",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    114,
+    143,
+    176,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_214",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    145,
+    89,
+    200,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_214",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    173,
+    40,
+    197,
+    111
+   ]
+  },
+  {
+   "stem": "pitted_surface_223",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    137,
+    37,
+    198
+   ]
+  },
+  {
+   "stem": "pitted_surface_223",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    131,
+    172,
+    169,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_226",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    4,
+    1,
+    43,
+    56
+   ]
+  },
+  {
+   "stem": "pitted_surface_236",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    25,
+    29,
+    53
+   ]
+  },
+  {
+   "stem": "pitted_surface_236",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    5,
+    135,
+    37,
+    172
+   ]
+  },
+  {
+   "stem": "pitted_surface_237",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    8,
+    2,
+    40,
+    27
+   ]
+  },
+  {
+   "stem": "pitted_surface_245",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    2,
+    1,
+    41,
+    46
+   ]
+  },
+  {
+   "stem": "pitted_surface_247",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    20,
+    171,
+    73,
+    200
+   ]
+  },
+  {
+   "stem": "pitted_surface_258",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    2,
+    35,
+    90
+   ]
+  },
+  {
+   "stem": "pitted_surface_261",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    104,
+    59,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_261",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    4,
+    1,
+    33,
+    30
+   ]
+  },
+  {
+   "stem": "pitted_surface_272",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    96,
+    1,
+    143,
+    31
+   ]
+  },
+  {
+   "stem": "pitted_surface_276",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    95,
+    124,
+    171,
+    199
+   ]
+  },
+  {
+   "stem": "pitted_surface_276",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    118,
+    1,
+    183,
+    74
+   ]
+  },
+  {
+   "stem": "pitted_surface_277",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    2,
+    44,
+    35,
+    69
+   ]
+  },
+  {
+   "stem": "pitted_surface_279",
+   "issue": "label inclusion != file class pitted_surface",
+   "box": [
+    45,
+    33,
+    67,
+    63
+   ]
+  },
+  {
+   "stem": "pitted_surface_279",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    112,
+    27,
+    158
+   ]
+  },
+  {
+   "stem": "pitted_surface_281",
+   "issue": "label inclusion != file class pitted_surface",
+   "box": [
+    10,
+    12,
+    38,
+    198
+   ]
+  },
+  {
+   "stem": "pitted_surface_291",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    170,
+    1,
+    198,
+    66
+   ]
+  },
+  {
+   "stem": "pitted_surface_292",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    26,
+    136,
+    71,
+    198
+   ]
+  },
+  {
+   "stem": "pitted_surface_292",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    1,
+    43,
+    52,
+    126
+   ]
+  },
+  {
+   "stem": "pitted_surface_294",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    51,
+    38,
+    78,
+    74
+   ]
+  },
+  {
+   "stem": "pitted_surface_295",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    9,
+    67,
+    55,
+    131
+   ]
+  },
+  {
+   "stem": "pitted_surface_296",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    92,
+    104,
+    141,
+    177
+   ]
+  },
+  {
+   "stem": "scratches_108",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    133,
+    129,
+    150,
+    193
+   ]
+  },
+  {
+   "stem": "scratches_108",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    159,
+    134,
+    178,
+    184
+   ]
+  },
+  {
+   "stem": "scratches_108",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    7,
+    145,
+    20,
+    179
+   ]
+  },
+  {
+   "stem": "scratches_109",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    22,
+    102,
+    38,
+    177
+   ]
+  },
+  {
+   "stem": "scratches_109",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    69,
+    29,
+    82,
+    65
+   ]
+  },
+  {
+   "stem": "scratches_109",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    83,
+    139,
+    95,
+    178
+   ]
+  },
+  {
+   "stem": "scratches_109",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    42,
+    152,
+    70,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_110",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    108,
+    19,
+    126,
+    105
+   ]
+  },
+  {
+   "stem": "scratches_110",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    134,
+    26,
+    153,
+    70
+   ]
+  },
+  {
+   "stem": "scratches_111",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    18,
+    1,
+    29,
+    27
+   ]
+  },
+  {
+   "stem": "scratches_111",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    144,
+    1,
+    161,
+    71
+   ]
+  },
+  {
+   "stem": "scratches_111",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    170,
+    1,
+    187,
+    39
+   ]
+  },
+  {
+   "stem": "scratches_113",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    161,
+    170,
+    172,
+    193
+   ]
+  },
+  {
+   "stem": "scratches_115",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    138,
+    86,
+    151,
+    121
+   ]
+  },
+  {
+   "stem": "scratches_118",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    172,
+    116,
+    185,
+    150
+   ]
+  },
+  {
+   "stem": "scratches_120",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    11,
+    118,
+    22,
+    149
+   ]
+  },
+  {
+   "stem": "scratches_121",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    170,
+    16,
+    199,
+    109
+   ]
+  },
+  {
+   "stem": "scratches_122",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    171,
+    137,
+    196,
+    170
+   ]
+  },
+  {
+   "stem": "scratches_127",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    165,
+    1,
+    200,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_128",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    83,
+    1,
+    185,
+    196
+   ]
+  },
+  {
+   "stem": "scratches_129",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    126,
+    1,
+    198,
+    197
+   ]
+  },
+  {
+   "stem": "scratches_130",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    96,
+    1,
+    175,
+    197
+   ]
+  },
+  {
+   "stem": "scratches_130",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    15,
+    24,
+    45,
+    101
+   ]
+  },
+  {
+   "stem": "scratches_131",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    98,
+    34,
+    129,
+    107
+   ]
+  },
+  {
+   "stem": "scratches_131",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    171,
+    34,
+    200,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_132",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    133,
+    1,
+    200,
+    198
+   ]
+  },
+  {
+   "stem": "scratches_135",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    35,
+    28,
+    51,
+    63
+   ]
+  },
+  {
+   "stem": "scratches_137",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    38,
+    124,
+    52,
+    164
+   ]
+  },
+  {
+   "stem": "scratches_138",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    92,
+    120,
+    105,
+    158
+   ]
+  },
+  {
+   "stem": "scratches_139",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    107,
+    112,
+    127,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_139",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    133,
+    116,
+    153,
+    173
+   ]
+  },
+  {
+   "stem": "scratches_140",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    52,
+    83,
+    66,
+    120
+   ]
+  },
+  {
+   "stem": "scratches_140",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    19,
+    112,
+    39,
+    189
+   ]
+  },
+  {
+   "stem": "scratches_140",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    179,
+    71,
+    195,
+    156
+   ]
+  },
+  {
+   "stem": "scratches_141",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    62,
+    50,
+    85,
+    116
+   ]
+  },
+  {
+   "stem": "scratches_141",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    96,
+    17,
+    108,
+    50
+   ]
+  },
+  {
+   "stem": "scratches_141",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    38,
+    1,
+    58,
+    49
+   ]
+  },
+  {
+   "stem": "scratches_141",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    18,
+    64,
+    45,
+    109
+   ]
+  },
+  {
+   "stem": "scratches_143",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    123,
+    152,
+    135,
+    180
+   ]
+  },
+  {
+   "stem": "scratches_146",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    176,
+    82,
+    188,
+    111
+   ]
+  },
+  {
+   "stem": "scratches_209",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    115,
+    47,
+    199,
+    94
+   ]
+  },
+  {
+   "stem": "scratches_210",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    145,
+    28,
+    200,
+    51
+   ]
+  },
+  {
+   "stem": "scratches_210",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    137,
+    141,
+    200,
+    164
+   ]
+  },
+  {
+   "stem": "scratches_210",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    163,
+    116,
+    200,
+    137
+   ]
+  },
+  {
+   "stem": "scratches_211",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    152,
+    152,
+    198,
+    182
+   ]
+  },
+  {
+   "stem": "scratches_216",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    1,
+    1,
+    52,
+    34
+   ]
+  },
+  {
+   "stem": "scratches_216",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    1,
+    56,
+    34,
+    76
+   ]
+  },
+  {
+   "stem": "scratches_222",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    155,
+    2,
+    186,
+    197
+   ]
+  },
+  {
+   "stem": "scratches_222",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    137,
+    70,
+    149,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_223",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    160,
+    5,
+    195,
+    196
+   ]
+  },
+  {
+   "stem": "scratches_224",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    99,
+    1,
+    123,
+    66
+   ]
+  },
+  {
+   "stem": "scratches_225",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    174,
+    179,
+    199,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_226",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    12,
+    1,
+    25,
+    91
+   ]
+  },
+  {
+   "stem": "scratches_226",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    1,
+    100,
+    53,
+    164
+   ]
+  },
+  {
+   "stem": "scratches_228",
+   "issue": "label pitted_surface != file class scratches",
+   "box": [
+    67,
+    55,
+    131,
+    187
+   ]
+  },
+  {
+   "stem": "scratches_228",
+   "issue": "label patches != file class scratches",
+   "box": [
+    167,
+    89,
+    200,
+    122
+   ]
+  },
+  {
+   "stem": "scratches_229",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    95,
+    1,
+    114,
+    41
+   ]
+  },
+  {
+   "stem": "scratches_230",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    1,
+    77,
+    118,
+    130
+   ]
+  },
+  {
+   "stem": "scratches_231",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    12,
+    120,
+    100,
+    151
+   ]
+  },
+  {
+   "stem": "scratches_233",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    79,
+    152,
+    91,
+    189
+   ]
+  },
+  {
+   "stem": "scratches_236",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    155,
+    25,
+    165,
+    110
+   ]
+  },
+  {
+   "stem": "scratches_242",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    2,
+    169,
+    27,
+    195
+   ]
+  },
+  {
+   "stem": "scratches_244",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    118,
+    3,
+    174,
+    56
+   ]
+  },
+  {
+   "stem": "scratches_290",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    1,
+    157,
+    57,
+    177
+   ]
+  },
+  {
+   "stem": "scratches_32",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    105,
+    84,
+    120,
+    116
+   ]
+  },
+  {
+   "stem": "scratches_33",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    38,
+    47,
+    52,
+    80
+   ]
+  },
+  {
+   "stem": "scratches_48",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    36,
+    1,
+    53,
+    43
+   ]
+  },
+  {
+   "stem": "scratches_69",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    85,
+    18,
+    107,
+    105
+   ]
+  },
+  {
+   "stem": "scratches_7",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    127,
+    1,
+    148,
+    47
+   ]
+  },
+  {
+   "stem": "scratches_92",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    173,
+    169,
+    190,
+    200
+   ]
+  },
+  {
+   "stem": "scratches_94",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    71,
+    95,
+    85,
+    121
+   ]
+  },
+  {
+   "stem": "scratches_94",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    72,
+    144,
+    84,
+    172
+   ]
+  },
+  {
+   "stem": "scratches_97",
+   "issue": "label inclusion != file class scratches",
+   "box": [
+    42,
+    97,
+    56,
+    142
+   ]
+  },
+  {
+   "stem": "patches_274",
+   "issue": "label inclusion != file class patches",
+   "box": [
+    100,
+    91,
+    128,
+    128
+   ]
+  },
+  {
+   "stem": "pitted_surface_175",
+   "issue": "label patches != file class pitted_surface",
+   "box": [
+    122,
+    152,
+    163,
+    200
+   ]
+  }
+ ],
+ "exact_duplicate_files": [
+  [
+   "patches_101",
+   "24f39e0f91f95e4c785052ac4d3e49a6"
+  ],
+  [
+   "patches_105",
+   "24f39e0f91f95e4c785052ac4d3e49a6"
+  ]
+ ],
+ "exact_duplicate_pixels": [
+  [
+   "patches_101",
+   "f1cc1a5ff49dbd08ef7329d00f2253d9"
+  ],
+  [
+   "patches_105",
+   "f1cc1a5ff49dbd08ef7329d00f2253d9"
+  ]
+ ],
+ "near_duplicate_pairs_hamming_le_20": 1,
+ "near_duplicate_pairs_mad_lt_5": 1,
+ "box_side_px_quantiles": {
+  "0.0": 10.4,
+  "0.05": 25.8,
+  "0.25": 45.3,
+  "0.5": 68.7,
+  "0.75": 93.6,
+  "0.95": 151.0,
+  "1.0": 199.0
+ },
+ "boxes_side_lt_32px_at_200": 447,
+ "area_frac_by_class_median": {
+  "crazing": 0.211,
+  "inclusion": 0.041,
+  "patches": 0.093,
+  "pitted_surface": 0.555,
+  "rolled-in_scale": 0.123,
+  "scratches": 0.075
+ },
+ "boxes_per_image_by_class_mean": {
+  "crazing": 2.3,
+  "inclusion": 2.65,
+  "patches": 2.58,
+  "pitted_surface": 1.44,
+  "rolled-in_scale": 2.09,
+  "scratches": 1.83
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "run": "gpu_neu_s0_rtdetrl_256_seed2",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.03629550264550265,
+   "violations": 0.0
+  },
+  "0.02": {
+   "escape": 0.0480490582010582,
+   "violations": 0.002
+  },
+  "0.05": {
+   "escape": 0.06567939153439152,
+   "violations": 0.014
+  },
+  "0.1": {
+   "escape": 0.09506328042328041,
+   "violations": 0.33
+  },
+  "0.2": {
+   "escape": 0.1538310582010582,
+   "violations": 1.0
+  }
+ },
+ "review_share_defective": 0.5876777777777779,
+ "review_share_all": 0.5876777777777779,
+ "defective_images_accepted": 0.0,
+ "review_share_defect_free": null,
+ "false_alarms_per_auto_image": 0.8764683952041219,
+ "pooled_escape": 0.03624938475248671,
+ "feasible_main": 1.0,
+ "class_escape": {
+  "crazing": 0.019045632022890526,
+  "inclusion": 0.037742679139596474,
+  "patches": 0.017454804524000358,
+  "pitted_surface": 0.08716625058181357,
+  "rolled-in_scale": 0.03544480375372519,
+  "scratches": 0.042922193625024745
+ },
+ "reps_main": 500,
+ "operator_aware": {}
+}

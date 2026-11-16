@@ -1,0 +1,53 @@
+{
+ "run": "gpu_neu_s0_yolov10n_256_seed1",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.04157708112874779,
+   "violations": 0.002
+  },
+  "0.02": {
+   "escape": 0.053557747795414466,
+   "violations": 0.004
+  },
+  "0.05": {
+   "escape": 0.07152874779541446,
+   "violations": 0.024
+  },
+  "0.1": {
+   "escape": 0.10148041446208113,
+   "violations": 0.526
+  },
+  "0.2": {
+   "escape": 0.16138374779541448,
+   "violations": 1.0
+  }
+ },
+ "review_share_defective": 0.5990333333333333,
+ "review_share_all": 0.5990333333333333,
+ "defective_images_accepted": 3.3333333333333335e-05,
+ "review_share_defect_free": null,
+ "false_alarms_per_auto_image": 0.8606418497639872,
+ "pooled_escape": 0.04561903917616142,
+ "feasible_main": 1.0,
+ "class_escape": {
+  "crazing": 0.00646776549134154,
+  "inclusion": 0.06306323470573666,
+  "patches": 0.030634963042123074,
+  "pitted_surface": 0.13548851182668303,
+  "rolled-in_scale": 0.01277661530657536,
+  "scratches": 0.04541674915858246
+ },
+ "reps_main": 500,
+ "operator_aware": {}
+}

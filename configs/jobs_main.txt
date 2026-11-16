@@ -1,0 +1,24 @@
+# Priority-ordered job list (resumable; see scripts/queue.sh). COCO-pretrained initialisation for all.
+# NEU-DET: split seed 0 (60/20/20, stratified), 256 px, 80 epochs
+neu_s0_yolo11n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 0
+neu_s0_yolo12n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 0
+neu_s0_secfull_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 0
+# Magnetic Tile: tile-grouped split, 320 px, 80 epochs (defect-free images included as negatives)
+mt_s0_yolo11n_320_seed0|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 0 --imgsz 320
+# GC10-DET: sequence-grouped vs image-random split, 640 px, 40 epochs
+gc10g_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+gc10r_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+# NEU-DET further seeds
+neu_s0_yolo11n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 1
+neu_s0_yolo12n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 1
+neu_s0_secfull_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 1
+neu_s0_yolo11n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 2
+neu_s0_yolo12n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 2
+neu_s0_secfull_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 2
+mt_s0_yolo11n_320_seed1|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 1 --imgsz 320
+mt_s0_yolo11n_320_seed2|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 2 --imgsz 320
+neu_s0_yolov8n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 0
+neu_s0_yolov8n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 1
+neu_s0_yolov8n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 2
+gc10g_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40
+gc10r_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40

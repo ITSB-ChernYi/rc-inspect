@@ -1,0 +1,88 @@
+{
+ "_env": {
+  "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+  "cpu_model": "AMD Ryzen 7 5800X 8-Core Processor",
+  "torch": "2.11.0+cu128",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cores": 16
+ },
+ "gpu_pcbg_s0_yolov8n_640_seed0": {
+  "imgsz": 640,
+  "params": 3133922,
+  "gflops_at_imgsz": 8.645,
+  "checkpoint_mb_fp16": 6.21,
+  "model_only": {
+   "1thr": {
+    "median_ms": 104.19829998863861,
+    "p90_ms": 109.35814000258688
+   },
+   "4thr": {
+    "median_ms": 52.47654998674989,
+    "p90_ms": 59.16300002136268
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 1.536549985758029,
+   "inference_ms": 31.14770000684075,
+   "postprocess_ms": 0.6873999955132604,
+   "risk_layer_ms": 0.06550000398419797,
+   "quality_gate_ms": 20.96965000964701,
+   "total_ms": 33.40094997838605,
+   "total_with_gate_ms": 54.27420002524741,
+   "n_images": 100
+  }
+ },
+ "gpu_pcbg_s0_yolo11n_640_seed0": {
+  "imgsz": 640,
+  "params": 2598266,
+  "gflops_at_imgsz": 6.443,
+  "checkpoint_mb_fp16": 5.26,
+  "model_only": {
+   "1thr": {
+    "median_ms": 93.68834999622777,
+    "p90_ms": 102.97592000861187
+   },
+   "4thr": {
+    "median_ms": 47.67315000935923,
+    "p90_ms": 57.715009988169186
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 1.5802500129211694,
+   "inference_ms": 32.92369999689981,
+   "postprocess_ms": 0.6720500095980242,
+   "risk_layer_ms": 0.06500000017695129,
+   "quality_gate_ms": 22.34495000448078,
+   "total_ms": 35.24270000343677,
+   "total_with_gate_ms": 57.381650010938756,
+   "n_images": 100
+  }
+ },
+ "gpu_pcbg_s0_yolo12n_640_seed0": {
+  "imgsz": 640,
+  "params": 2572842,
+  "gflops_at_imgsz": 7.372,
+  "checkpoint_mb_fp16": 5.3,
+  "model_only": {
+   "1thr": {
+    "median_ms": 107.56345000118017,
+    "p90_ms": 116.3325099973008
+   },
+   "4thr": {
+    "median_ms": 64.06614997831639,
+    "p90_ms": 72.61395001842175
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 1.4632999955210835,
+   "inference_ms": 42.44400002062321,
+   "postprocess_ms": 0.6931499956408516,
+   "risk_layer_ms": 0.06700001540593803,
+   "quality_gate_ms": 20.478449994698167,
+   "total_ms": 44.58404995966703,
+   "total_with_gate_ms": 65.24275000265334,
+   "n_images": 100
+  }
+ }
+}

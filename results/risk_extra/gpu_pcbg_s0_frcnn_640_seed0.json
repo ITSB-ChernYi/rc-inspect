@@ -1,0 +1,53 @@
+{
+ "run": "gpu_pcbg_s0_frcnn_640_seed0",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "open",
+  "short",
+  "mousebite",
+  "spur",
+  "copper",
+  "pin_hole"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.028398106303418803,
+   "violations": 0.0
+  },
+  "0.02": {
+   "escape": 0.030220356303418804,
+   "violations": 0.0
+  },
+  "0.05": {
+   "escape": 0.032953731303418804,
+   "violations": 0.0
+  },
+  "0.1": {
+   "escape": 0.037509356303418805,
+   "violations": 0.0
+  },
+  "0.2": {
+   "escape": 0.046620606303418806,
+   "violations": 0.0
+  }
+ },
+ "review_share_defective": 0.0911125,
+ "review_share_all": 0.0911125,
+ "defective_images_accepted": 0.0,
+ "review_share_defect_free": null,
+ "false_alarms_per_auto_image": 0.4866943137730674,
+ "pooled_escape": 0.02964450321118882,
+ "feasible_main": 1.0,
+ "class_escape": {
+  "open": 0.018577594295364985,
+  "short": 0.06335737519445624,
+  "mousebite": 0.027361693628919513,
+  "spur": 0.050009895601405174,
+  "copper": 0.01116237344611047,
+  "pin_hole": 0.010163246382469925
+ },
+ "reps_main": 500,
+ "operator_aware": {}
+}

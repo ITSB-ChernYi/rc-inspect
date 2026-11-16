@@ -1,0 +1,37 @@
+{
+ "v12n_pan": {
+  "params": 2569218,
+  "gflops_640": 7.466,
+  "gflops_256": 1.062
+ },
+ "sec_hcsa": {
+  "params": 2625093,
+  "gflops_640": 7.601,
+  "gflops_256": 1.084
+ },
+ "sec_hcsa_nosobel": {
+  "params": 2625093,
+  "gflops_640": 7.601,
+  "gflops_256": 1.084
+ },
+ "sec_bifpn": {
+  "params": 2291083,
+  "gflops_640": 8.58,
+  "gflops_256": 1.241
+ },
+ "sec_ewbifpn": {
+  "params": 2299736,
+  "gflops_640": 8.622,
+  "gflops_256": 1.247
+ },
+ "sec_hcsa_bifpn": {
+  "params": 2346958,
+  "gflops_640": 8.715,
+  "gflops_256": 1.262
+ },
+ "sec_full": {
+  "params": 2355611,
+  "gflops_640": 8.757,
+  "gflops_256": 1.269
+ }
+}

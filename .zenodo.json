@@ -1,0 +1,14 @@
+{
+  "title": "RC-Inspect: code, split lists, cached predictions and results",
+  "upload_type": "software",
+  "description": "Code, leakage-safe split lists with SHA-256 hashes, cached detector predictions and result files for the paper 'RC-Inspect: A lightweight risk-controlled deep learning framework for real-time defect inspection in steel and electronic manufacturing' (submitted to Computers and Electrical Engineering). Code under the MIT licence; split lists, predictions and results under CC BY 4.0. Dataset images and annotations are not included.",
+  "creators": [
+    {"name": "Lim, Chern Yi", "affiliation": "Monash University Malaysia"},
+    {"name": "Lim, Joanne Mun-Yee", "affiliation": "Monash University Malaysia"},
+    {"name": "Kalavally, Vineetha", "affiliation": "Monash University Malaysia"},
+    {"name": "Lim, Wei Sean", "affiliation": "Intellogic Technology Sdn Bhd"}
+  ],
+  "license": "MIT",
+  "keywords": ["surface defect detection", "conformal risk control", "object detection", "automated optical inspection"],
+  "access_right": "open"
+}

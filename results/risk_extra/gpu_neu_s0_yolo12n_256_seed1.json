@@ -1,0 +1,60 @@
+{
+ "run": "gpu_neu_s0_yolo12n_256_seed1",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.04124895061728395,
+   "violations": 0.0
+  },
+  "0.02": {
+   "escape": 0.05159161728395061,
+   "violations": 0.0
+  },
+  "0.05": {
+   "escape": 0.06710561728395062,
+   "violations": 0.006
+  },
+  "0.1": {
+   "escape": 0.09296228395061729,
+   "violations": 0.23
+  },
+  "0.2": {
+   "escape": 0.1446756172839506,
+   "violations": 1.0
+  }
+ },
+ "review_share_defective": 0.5171333333333334,
+ "review_share_all": 0.5171333333333334,
+ "defective_images_accepted": 0.0,
+ "review_share_defect_free": null,
+ "false_alarms_per_auto_image": 0.9011195680188026,
+ "pooled_escape": 0.04623729396994895,
+ "feasible_main": 1.0,
+ "class_escape": {
+  "crazing": 0.01621412178474561,
+  "inclusion": 0.05327033360641683,
+  "patches": 0.0347092350164752,
+  "pitted_surface": 0.10383785384843228,
+  "rolled-in_scale": 0.03994673768308921,
+  "scratches": 0.04620867155018808
+ },
+ "reps_main": 500,
+ "operator_aware": {
+  "0.05": {
+   "escape": 0.05024060846560847,
+   "violations": 0.0,
+   "review": 0.9942777777777778,
+   "feasible": 0.02
+  }
+ }
+}

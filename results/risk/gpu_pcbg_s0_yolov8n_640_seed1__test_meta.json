@@ -1,0 +1,41 @@
+{
+ "run": "gpu_pcbg_s0_yolov8n_640_seed1",
+ "pool": "test",
+ "n_images": 320,
+ "n_defective": 320,
+ "n_gt": 2149,
+ "size_edges_px2": [
+  1023.0006398976001,
+  1367.9999999999998
+ ],
+ "lam_f1_val": 0.66,
+ "reps": 500,
+ "delta": 0.1,
+ "order": "asc",
+ "class_escape_crc_class": {
+  "0.05": [
+   0.0556,
+   0.054,
+   0.0477,
+   0.1108,
+   0.0538,
+   0.0505
+  ],
+  "0.1": [
+   0.0961,
+   0.0946,
+   0.0959,
+   0.1012,
+   0.0962,
+   0.0935
+  ]
+ },
+ "class_names": [
+  "open",
+  "short",
+  "mousebite",
+  "spur",
+  "copper",
+  "pin_hole"
+ ]
+}

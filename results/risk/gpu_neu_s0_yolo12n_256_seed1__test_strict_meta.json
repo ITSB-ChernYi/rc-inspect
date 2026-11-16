@@ -1,0 +1,41 @@
+{
+ "run": "gpu_neu_s0_yolo12n_256_seed1",
+ "pool": "test",
+ "n_images": 360,
+ "n_defective": 360,
+ "n_gt": 845,
+ "size_edges_px2": [
+  2758.0,
+  7056.000000000002
+ ],
+ "lam_f1_val": 0.2,
+ "reps": 200,
+ "delta": 0.1,
+ "order": "asc",
+ "class_escape_crc_class": {
+  "0.05": [
+   0.0476,
+   0.1336,
+   0.0544,
+   0.0531,
+   0.0271,
+   0.0228
+  ],
+  "0.1": [
+   0.0671,
+   0.0787,
+   0.0786,
+   0.0788,
+   0.0791,
+   0.0856
+  ]
+ },
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ]
+}

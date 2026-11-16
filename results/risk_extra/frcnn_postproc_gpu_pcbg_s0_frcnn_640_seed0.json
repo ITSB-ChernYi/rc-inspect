@@ -1,0 +1,75 @@
+{
+ "run": "gpu_pcbg_s0_frcnn_640_seed0",
+ "settings": {
+  "as_trained": {
+   "floor": 0.001,
+   "nms": 0.5,
+   "det_per_img": 300,
+   "rpn_pre": 1000,
+   "rpn_post": 1000,
+   "boxes_per_img_median": 33.0,
+   "boxes_per_img_p90": 54.0,
+   "defects_never_found": 0.0144253140995812,
+   "escape": 0.028054614049145297,
+   "review": 0.09125,
+   "feasible": 1.0,
+   "violations": 0.0
+  },
+  "nms0.7_det1000": {
+   "floor": 0.001,
+   "nms": 0.7,
+   "det_per_img": 1000,
+   "rpn_pre": 1000,
+   "rpn_post": 1000,
+   "boxes_per_img_median": 39.0,
+   "boxes_per_img_p90": 78.10000000000002,
+   "defects_never_found": 0.013494648673801768,
+   "escape": 0.027246883585164836,
+   "review": 0.10800000000000001,
+   "feasible": 1.0,
+   "violations": 0.0
+  },
+  "nms0.7_det1000_rpn3000": {
+   "floor": 0.001,
+   "nms": 0.7,
+   "det_per_img": 1000,
+   "rpn_pre": 3000,
+   "rpn_post": 3000,
+   "boxes_per_img_median": 48.0,
+   "boxes_per_img_p90": 102.0,
+   "defects_never_found": 0.013029315960912053,
+   "escape": 0.02495266807844933,
+   "review": 0.12884374999999998,
+   "feasible": 1.0,
+   "violations": 0.0
+  },
+  "floor1e-4_nms0.7_det1000_rpn3000": {
+   "floor": 0.0001,
+   "nms": 0.7,
+   "det_per_img": 1000,
+   "rpn_pre": 3000,
+   "rpn_post": 3000,
+   "boxes_per_img_median": 48.0,
+   "boxes_per_img_p90": 102.0,
+   "defects_never_found": 0.007910656119125175,
+   "escape": 0.02495266807844933,
+   "review": 0.12884374999999998,
+   "feasible": 1.0,
+   "violations": 0.0
+  },
+  "floor1e-4_det1000": {
+   "floor": 0.0001,
+   "nms": 0.5,
+   "det_per_img": 1000,
+   "rpn_pre": 1000,
+   "rpn_post": 1000,
+   "boxes_per_img_median": 33.0,
+   "boxes_per_img_p90": 54.0,
+   "defects_never_found": 0.01209865053513262,
+   "escape": 0.028054614049145297,
+   "review": 0.09125,
+   "feasible": 1.0,
+   "violations": 0.0
+  }
+ }
+}

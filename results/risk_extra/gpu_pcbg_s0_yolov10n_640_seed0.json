@@ -1,0 +1,53 @@
+{
+ "run": "gpu_pcbg_s0_yolov10n_640_seed0",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "open",
+  "short",
+  "mousebite",
+  "spur",
+  "copper",
+  "pin_hole"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.03134560515873016,
+   "violations": 0.0
+  },
+  "0.02": {
+   "escape": 0.032653355158730156,
+   "violations": 0.0
+  },
+  "0.05": {
+   "escape": 0.034614980158730164,
+   "violations": 0.0
+  },
+  "0.1": {
+   "escape": 0.03788435515873016,
+   "violations": 0.0
+  },
+  "0.2": {
+   "escape": 0.04442310515873016,
+   "violations": 0.0
+  }
+ },
+ "review_share_defective": 0.06538749999999999,
+ "review_share_all": 0.06538749999999999,
+ "defective_images_accepted": 0.0,
+ "review_share_defect_free": null,
+ "false_alarms_per_auto_image": 0.5059448937695465,
+ "pooled_escape": 0.03245673501344974,
+ "feasible_main": 1.0,
+ "class_escape": {
+  "open": 0.023152740172818986,
+  "short": 0.05798331211992646,
+  "mousebite": 0.04106251248252447,
+  "spur": 0.046942259165800804,
+  "copper": 0.022247853389721902,
+  "pin_hole": 0.0037700397745296602
+ },
+ "reps_main": 500,
+ "operator_aware": {}
+}

@@ -1,0 +1,91 @@
+{
+ "repos": {
+  "neu_repo": {
+   "url": "https://github.com/siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection.git",
+   "commit": "351bee21b56bbf97a1e1d18262bceb202eb7ef41"
+  },
+  "gc10_repo": {
+   "url": "https://github.com/wyx19980727/GC10-DET-VOC.git",
+   "commit": "2459a712f9e539425c1ad0199b88e54ab28b2923"
+  },
+  "mt_repo": {
+   "url": "https://github.com/abin24/Magnetic-tile-defect-datasets..git",
+   "commit": "cc4eb530b57b9cb7225bf76023873043ffd50655"
+  }
+ },
+ "datasets": {
+  "neu_s0": {
+   "train": {
+    "n": 1079,
+    "stems_sha256": "166256230f779fe4723c39f4b4c53fcb377ac10e0cb0e9bd0781c0468ac331a9",
+    "labels_sha256": "33d062748f1a110d13a9005f3df3596051ba8928b28e7496589d2fd85d486fef"
+   },
+   "val": {
+    "n": 361,
+    "stems_sha256": "71c8d769777080886a2cc2f0d850e0088571856f2d2818d7a693f5d2a7126c13",
+    "labels_sha256": "c76ca2dfdd78b46d6a8c40bac46b25222a5a527eb8ad91fde72a6c72d1fc9345"
+   },
+   "test": {
+    "n": 360,
+    "stems_sha256": "356cf3a9f6332ed4a76814ebc8a62fa996f3fc6918c3681885a42006d5e64e13",
+    "labels_sha256": "a8c59519e879fec9f0eb224ace79f70534af2947e55cb5332500898a6a9cfba1"
+   }
+  },
+  "gc10_grouped_s0": {
+   "train": {
+    "n": 1416,
+    "stems_sha256": "0d66f733d184ec59dbd60101c05bbd02055f16455cac72ff2dfc76b68480701d",
+    "labels_sha256": "0c5fcdad69b8ccb1272050e42368fd8214b72475c28bf969337f32c741a08965"
+   },
+   "val": {
+    "n": 396,
+    "stems_sha256": "be23a20c8538c8f0efbc688e1a65f17e1f00f5765a132c13425816db5c10f983",
+    "labels_sha256": "c05fb0754a099806468a79dcea55d83ab30de9befb912be092f743cca6907d98"
+   },
+   "test": {
+    "n": 468,
+    "stems_sha256": "3ff9a09b71890780ff634d27fe33c941d24ef1a251e2789983372b725b5cf9d9",
+    "labels_sha256": "336e195729c392de1c1f93095d111d2622265b8ff14d6a510e9a436ac017cfe9"
+   }
+  },
+  "gc10_random_s0": {
+   "train": {
+    "n": 1368,
+    "stems_sha256": "14899c9c701b11e5f32258dba488680d04871f6bd8773b99a154b22a819badbe",
+    "labels_sha256": "6c29d189fb618449e00330d6f9dba973e23caf5406b31914ab3db2bdd5d11556"
+   },
+   "val": {
+    "n": 456,
+    "stems_sha256": "022bafd1a701e51e013b7c9f34501b818fe8bf57d4d0258d23121f73ee10fa07",
+    "labels_sha256": "049821068bb1efe00f45c06d413ac807b292d387ef57db16092f3e9a56f4c793"
+   },
+   "test": {
+    "n": 456,
+    "stems_sha256": "bfab925ca3a8ef135821dea52ddf7409fbb2d47472a1dbac971c8e0029fc4aae",
+    "labels_sha256": "90addbd93b8749ede4380a53331310f3009be92829b8e239a7225c0bf76fc3a9"
+   }
+  },
+  "mt_s0": {
+   "train": {
+    "n": 835,
+    "stems_sha256": "8fbd5e4a122a94d7116a4fd2ecce3a12f46af08720b4aac2f6222bb421de29c4",
+    "labels_sha256": "be75cdd8522b927c078d75aa314429e706b49787bbe884789c349db4dd24d55a"
+   },
+   "val": {
+    "n": 243,
+    "stems_sha256": "0e3c0262c15e65fcd9ff2ef8cfdac76469b2fc594e1b1a7c8593f6180cd64bc5",
+    "labels_sha256": "76790d02ac492ae869e1f54c4b63f55942917beccf5ba73fdf48e282d7b0f534"
+   },
+   "test": {
+    "n": 266,
+    "stems_sha256": "fe6c54c2584fbfaf416933620982b876a31f0d44b280ae463730d566643a445b",
+    "labels_sha256": "daf48d6c86ce0eb23ca5cb9d8e0bc6147da9617ab6fb3b8d1fa9b6185239b18b"
+   }
+  }
+ },
+ "weights": {
+  "yolo11n": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "yolo12n": "419ff3dca37d69bacc93a50fa0c186a1c6f9fe62fae0f108b0872829689e9ca6",
+  "yolov8n": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+ }
+}

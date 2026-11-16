@@ -1,0 +1,12 @@
+# DeepPCB, board-group split (sdd/deeppcb.py), 640 px, 80 epochs, three seeds; then the official split for the leakage comparison.
+gpu_pcbg_s0_yolov8n_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov8n --seed 0 --imgsz 640
+gpu_pcbg_s0_yolo11n_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo11n --seed 0 --imgsz 640
+gpu_pcbg_s0_yolo12n_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo12n --seed 0 --imgsz 640
+gpu_pcbg_s0_yolov8n_640_seed1|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov8n --seed 1 --imgsz 640
+gpu_pcbg_s0_yolo11n_640_seed1|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo11n --seed 1 --imgsz 640
+gpu_pcbg_s0_yolo12n_640_seed1|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo12n --seed 1 --imgsz 640
+gpu_pcbg_s0_yolov8n_640_seed2|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov8n --seed 2 --imgsz 640
+gpu_pcbg_s0_yolo11n_640_seed2|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo11n --seed 2 --imgsz 640
+gpu_pcbg_s0_yolo12n_640_seed2|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo12n --seed 2 --imgsz 640
+gpu_pcbo_yolo11n_640_seed0|--data /home/user/obj1data/deeppcb_official/data.yaml --model yolo11n --seed 0 --imgsz 640
+gpu_pcbo_yolo11n_640_seed1|--data /home/user/obj1data/deeppcb_official/data.yaml --model yolo11n --seed 1 --imgsz 640

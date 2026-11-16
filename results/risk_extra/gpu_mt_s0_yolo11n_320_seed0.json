@@ -1,0 +1,66 @@
+{
+ "run": "gpu_mt_s0_yolo11n_320_seed0",
+ "alpha": 0.1,
+ "delta": 0.1,
+ "budget": 0.5,
+ "class_names": [
+  "blowhole",
+  "break",
+  "crack",
+  "fray",
+  "uneven"
+ ],
+ "imperfect_review": {
+  "0.0": {
+   "escape": 0.0,
+   "violations": 0.0
+  },
+  "0.02": {
+   "escape": 0.02,
+   "violations": 0.0
+  },
+  "0.05": {
+   "escape": 0.05,
+   "violations": 0.0
+  },
+  "0.1": {
+   "escape": 0.1,
+   "violations": 0.0
+  },
+  "0.2": {
+   "escape": 0.2,
+   "violations": 1.0
+  }
+ },
+ "review_share_defective": 1.0,
+ "review_share_all": 1.0,
+ "defective_images_accepted": 0.0,
+ "review_share_defect_free": 1.0,
+ "false_alarms_per_auto_image": null,
+ "pooled_escape": 0.0,
+ "feasible_main": 0.0,
+ "class_escape": {
+  "blowhole": 0.0,
+  "break": 0.0,
+  "crack": 0.0,
+  "fray": 0.0,
+  "uneven": 0.0
+ },
+ "reps_main": 500,
+ "operator_aware": {
+  "0.05": {
+   "escape": 0.05,
+   "violations": 0.0,
+   "review": 1.0,
+   "feasible": 0.0
+  }
+ },
+ "grouped_partitions": {
+  "n_groups": 136,
+  "escape": 0.007665731586421242,
+  "violations": 0.03,
+  "review": 0.9724229639388695,
+  "feasible": 0.185,
+  "cal_images_mean": 134.205
+ }
+}

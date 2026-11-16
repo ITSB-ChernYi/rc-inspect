@@ -1,0 +1,13 @@
+# NEU-DET, split seed 0 (60/20/20), 256 px, 80 epochs, COCO-pretrained initialisation
+neu_s0_yolo11n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 0
+neu_s0_yolo12n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 0
+neu_s0_secfull_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 0
+neu_s0_yolov8n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 0
+neu_s0_yolo11n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 1
+neu_s0_yolo12n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 1
+neu_s0_secfull_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 1
+neu_s0_yolo11n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 2
+neu_s0_yolo12n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 2
+neu_s0_secfull_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 2
+neu_s0_yolov8n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 1
+neu_s0_yolov8n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 2

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+# built datasets, weights and training runs stay outside the repository
+data/*_s0/images/
+data/*_s0/labels/
+data/raw/
+data/runs/
+data/weights/
+data/quant_models/
+*.pt
+*.pth
+*.onnx

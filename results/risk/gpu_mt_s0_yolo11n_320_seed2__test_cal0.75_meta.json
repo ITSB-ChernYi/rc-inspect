@@ -1,0 +1,23 @@
+{
+ "run": "gpu_mt_s0_yolo11n_320_seed2",
+ "pool": "test",
+ "n_images": 266,
+ "n_defective": 85,
+ "n_gt": 94,
+ "size_edges_px2": [
+  423.33502333826664,
+  4105.993640330512
+ ],
+ "lam_f1_val": 0.19,
+ "reps": 200,
+ "delta": 0.1,
+ "order": "desc",
+ "class_escape_crc_class": {},
+ "class_names": [
+  "blowhole",
+  "break",
+  "crack",
+  "fray",
+  "uneven"
+ ]
+}

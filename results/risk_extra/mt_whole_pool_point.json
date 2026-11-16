@@ -1,0 +1,11 @@
+{
+ "rule": "resid",
+ "rho": 0.2,
+ "lam": 0.35,
+ "escape": 0.09411764705882353,
+ "false_reject": 0.016574585635359115,
+ "review": 0.18421052631578946,
+ "review_defect_free": 0.10497237569060773,
+ "run": "gpu_mt_s0_yolo11n_320_seed0",
+ "selection": "min review, then min escape, among points with escape < 0.10 and false reject <= 0.05 on the whole test pool (empirical, no guarantee)"
+}

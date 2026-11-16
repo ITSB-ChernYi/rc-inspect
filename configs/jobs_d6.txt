@@ -1,0 +1,32 @@
+# D6 wider detector comparison (scripts/d6_queue.py). Same splits, epochs, seeds and optimiser as jobs_pc.txt / jobs_pcb.txt.
+# Order: NEU-DET seed 0, DeepPCB (design-grouped) seed 0, then NEU-DET seeds 1 and 2, so that a complete first table exists early.
+# YOLOv5n/s are the anchor-free Ultralytics versions (yolov5nu/su); RT-DETR-L replaces RT-DETR-R18 (no R18 weights in Ultralytics);
+# Faster R-CNN is torchvision ResNet-50-FPN (scripts/frcnn.py).
+gpu_neu_s0_yolov5nu_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5nu --seed 0
+gpu_neu_s0_yolov5su_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5su --seed 0
+gpu_neu_s0_yolov8s_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8s --seed 0
+gpu_neu_s0_yolov10n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov10n --seed 0
+gpu_neu_s0_yolo11s_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11s --seed 0
+gpu_neu_s0_rtdetrl_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model rtdetr-l --seed 0
+gpu_neu_s0_frcnn_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model fasterrcnn_r50fpn --seed 0
+gpu_pcbg_s0_yolov5nu_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov5nu --seed 0 --imgsz 640
+gpu_pcbg_s0_yolov5su_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov5su --seed 0 --imgsz 640
+gpu_pcbg_s0_yolov8s_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov8s --seed 0 --imgsz 640
+gpu_pcbg_s0_yolov10n_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolov10n --seed 0 --imgsz 640
+gpu_pcbg_s0_yolo11s_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model yolo11s --seed 0 --imgsz 640
+gpu_pcbg_s0_rtdetrl_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model rtdetr-l --seed 0 --imgsz 640
+gpu_pcbg_s0_frcnn_640_seed0|--data /home/user/obj1data/deeppcb_grouped_s0/data.yaml --model fasterrcnn_r50fpn --seed 0 --imgsz 640
+gpu_neu_s0_yolov5nu_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5nu --seed 1
+gpu_neu_s0_yolov5su_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5su --seed 1
+gpu_neu_s0_yolov8s_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8s --seed 1
+gpu_neu_s0_yolov10n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov10n --seed 1
+gpu_neu_s0_yolo11s_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11s --seed 1
+gpu_neu_s0_rtdetrl_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model rtdetr-l --seed 1
+gpu_neu_s0_frcnn_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model fasterrcnn_r50fpn --seed 1
+gpu_neu_s0_yolov5nu_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5nu --seed 2
+gpu_neu_s0_yolov5su_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov5su --seed 2
+gpu_neu_s0_yolov8s_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8s --seed 2
+gpu_neu_s0_yolov10n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov10n --seed 2
+gpu_neu_s0_yolo11s_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11s --seed 2
+gpu_neu_s0_rtdetrl_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model rtdetr-l --seed 2
+gpu_neu_s0_frcnn_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model fasterrcnn_r50fpn --seed 2

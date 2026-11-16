@@ -1,0 +1,100 @@
+stem,issue,xml
+crease_img_03_4402270500_00004,folder class absent from annotation,['water_spot']
+crease_img_03_4405964400_00010,folder class absent from annotation,['rolled_pit']
+crease_img_03_4405964900_00010,folder class absent from annotation,['rolled_pit']
+crease_img_03_SIS001559_00006,folder class absent from annotation,"['inclusion', 'water_spot']"
+crease_img_04_4401672100_00003,folder class absent from annotation,['rolled_pit']
+crease_img_06_3436814000_00687,no annotation file,
+crescent_gap_img_01_425503100_00018,no annotation file,
+crescent_gap_img_04_425503600_00017,no annotation file,
+inclusion_img_01_425503100_00018,no annotation file,
+inclusion_img_01_4406743300_00935,folder class absent from annotation,"['silk_spot', 'water_spot']"
+inclusion_img_02_424799200_00150,folder class absent from annotation,"['silk_spot', 'water_spot']"
+inclusion_img_02_425392000_00984,no annotation file,
+inclusion_img_02_4406446600_00072,folder class absent from annotation,"['oil_spot', 'water_spot']"
+inclusion_img_02_4406446600_00073,folder class absent from annotation,['oil_spot']
+inclusion_img_02_4406562900_00698,folder class absent from annotation,['water_spot']
+inclusion_img_02_4406645900_00288,folder class absent from annotation,['silk_spot']
+inclusion_img_02_4406645900_00339,folder class absent from annotation,['silk_spot']
+inclusion_img_03_3402617400_00869,folder class absent from annotation,['water_spot']
+inclusion_img_03_3402617500_00003,folder class absent from annotation,['silk_spot']
+inclusion_img_03_425390700_00020,folder class absent from annotation,['rolled_pit']
+inclusion_img_03_436068500_00002,no annotation file,
+inclusion_img_03_4401440300_00347,folder class absent from annotation,['water_spot']
+inclusion_img_03_4406645900_00298,folder class absent from annotation,['silk_spot']
+inclusion_img_04_425380400_00732,folder class absent from annotation,['silk_spot']
+inclusion_img_05_425243500_00898,folder class absent from annotation,['water_spot']
+inclusion_img_05_425243500_00952,folder class absent from annotation,['water_spot']
+inclusion_img_05_425243500_00953,folder class absent from annotation,['water_spot']
+inclusion_img_05_425243500_01096,folder class absent from annotation,['water_spot']
+inclusion_img_05_425243500_01098,folder class absent from annotation,['water_spot']
+inclusion_img_05_425243500_01116,folder class absent from annotation,['water_spot']
+inclusion_img_05_4406562900_00008,folder class absent from annotation,['water_spot']
+inclusion_img_06_3402617700_00988,no annotation file,
+inclusion_img_06_4406562900_00002,folder class absent from annotation,"['crescent_gap', 'punching_hole', 'water_spot', 'welding_line']"
+inclusion_img_07_425391000_00291,folder class absent from annotation,['water_spot']
+inclusion_img_07_425503000_00061,no annotation file,
+inclusion_img_07_425503000_00062,folder class absent from annotation,['water_spot']
+inclusion_img_07_425503100_00007,folder class absent from annotation,['water_spot']
+inclusion_img_07_425508400_00364,folder class absent from annotation,['water_spot']
+oil_spot_img_02_425616200_00030,folder class absent from annotation,['water_spot']
+oil_spot_img_02_425646200_00062,folder class absent from annotation,['inclusion']
+oil_spot_img_03_425501800_01178,folder class absent from annotation,['inclusion']
+oil_spot_img_06_425392300_00387,folder class absent from annotation,['water_spot']
+oil_spot_img_06_425503400_00040,folder class absent from annotation,['water_spot']
+oil_spot_img_06_425506100_00177,folder class absent from annotation,['inclusion']
+oil_spot_img_06_427199900_01065,folder class absent from annotation,['inclusion']
+punching_hole_img_03_425506300_00018,no annotation file,
+punching_hole_img_06_425502900_00052,no annotation file,
+punching_hole_img_07_425391800_00054,no annotation file,
+punching_hole_img_07_425502900_00052,no annotation file,
+rolled_pit_img_02_425392000_00984,no annotation file,
+rolled_pit_img_03_436068500_00002,no annotation file,
+rolled_pit_img_06_425505500_00052,no annotation file,
+rolled_pit_img_07_427199900_00007,folder class absent from annotation,['inclusion']
+silk_spot_img_03_4406645900_00009,folder class absent from annotation,['oil_spot']
+silk_spot_img_03_4406645900_00017,folder class absent from annotation,['oil_spot']
+silk_spot_img_07_425391800_00054,no annotation file,
+waist folding_img_03_425613800_00022,folder class absent from annotation,['crease']
+waist folding_img_03_425613800_00026,folder class absent from annotation,['crease']
+waist folding_img_06_3436814000_00687,no annotation file,
+waist folding_img_06_4405133600_00921,folder class absent from annotation,['crease']
+waist folding_img_07_436163600_01161,no annotation file,
+waist folding_img_07_4405376800_00042,folder class absent from annotation,['crease']
+waist folding_img_07_4406645900_00897,folder class absent from annotation,['inclusion']
+water_spot_img_02_4403465900_00026,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403465900_00034,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403465900_00043,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403465900_00045,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466000_00011,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466100_00004,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466100_00005,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466100_00011,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466100_00013,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466200_00005,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466200_00006,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466500_00008,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466500_00010,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466500_00019,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466500_00023,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466600_00003,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466600_00004,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466600_00014,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466600_00019,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466700_00010,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466700_00014,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466900_00011,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4403466900_00012,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4406446700_00001,folder class absent from annotation,['oil_spot']
+water_spot_img_02_4406772100_00175,no annotation file,
+water_spot_img_03_4403466500_00029,folder class absent from annotation,['oil_spot']
+water_spot_img_03_4403466600_00018,folder class absent from annotation,['oil_spot']
+water_spot_img_07_425503000_00061,no annotation file,
+welding_line_img_03_425506300_00018,no annotation file,
+welding_line_img_03_4404892800_01027,folder class absent from annotation,['punching_hole']
+welding_line_img_04_425503600_00017,no annotation file,
+welding_line_img_06_425502900_00052,no annotation file,
+welding_line_img_06_425505500_00052,no annotation file,
+welding_line_img_06_4403068300_01280,folder class absent from annotation,['punching_hole']
+welding_line_img_07_425502900_00052,no annotation file,
+welding_line_img_07_436163600_01161,no annotation file,

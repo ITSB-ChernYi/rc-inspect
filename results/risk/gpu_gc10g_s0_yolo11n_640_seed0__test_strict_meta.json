@@ -1,0 +1,28 @@
+{
+ "run": "gpu_gc10g_s0_yolo11n_640_seed0",
+ "pool": "test",
+ "n_images": 468,
+ "n_defective": 468,
+ "n_gt": 708,
+ "size_edges_px2": [
+  21714.057215999997,
+  134874.77691733334
+ ],
+ "lam_f1_val": 0.2,
+ "reps": 200,
+ "delta": 0.1,
+ "order": "asc",
+ "class_escape_crc_class": {},
+ "class_names": [
+  "punching_hole",
+  "welding_line",
+  "crescent_gap",
+  "water_spot",
+  "oil_spot",
+  "silk_spot",
+  "inclusion",
+  "rolled_pit",
+  "crease",
+  "waist_folding"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "n_tested_images": 1500,
+ "n_templates": 1500,
+ "n_boxes": 10013,
+ "image_sizes": {
+  "640x640": 1500
+ },
+ "official_split": {
+  "trainval": 1000,
+  "test": 500
+ },
+ "images_per_group": {
+  "group00041": 221,
+  "group12000": 14,
+  "group12100": 146,
+  "group12300": 98,
+  "group13000": 216,
+  "group20085": 325,
+  "group44000": 100,
+  "group50600": 79,
+  "group77000": 107,
+  "group90100": 74,
+  "group92000": 120
+ },
+ "official_split_per_group": {
+  "group00041": {
+   "test": 21,
+   "trainval": 200
+  },
+  "group12000": {
+   "test": 14,
+   "trainval": 0
+  },
+  "group12100": {
+   "test": 146,
+   "trainval": 0
+  },
+  "group12300": {
+   "test": 98,
+   "trainval": 0
+  },
+  "group13000": {
+   "test": 18,
+   "trainval": 198
+  },
+  "group20085": {
+   "test": 34,
+   "trainval": 291
+  },
+  "group44000": {
+   "test": 50,
+   "trainval": 50
+  },
+  "group50600": {
+   "test": 29,
+   "trainval": 50
+  },
+  "group77000": {
+   "test": 7,
+   "trainval": 100
+  },
+  "group90100": {
+   "test": 74,
+   "trainval": 0
+  },
+  "group92000": {
+   "test": 9,
+   "trainval": 111
+  }
+ },
+ "groups_in_both_official_partitions": 7,
+ "boxes_per_class": {
+  "mousebite": 1965,
+  "open": 1942,
+  "spur": 1625,
+  "short": 1506,
+  "pin_hole": 1501,
+  "copper": 1474
+ },
+ "boxes_per_image_quantiles": {
+  "0.0": 1.0,
+  "0.25": 5.0,
+  "0.5": 7.0,
+  "0.75": 8.0,
+  "1.0": 15.0
+ },
+ "issue_counts": {},
+ "exact_duplicate_tested_files": 0,
+ "exact_duplicate_template_images": 3,
+ "exact_duplicate_template_groups": 1,
+ "test_vs_template_diff_frac_quantiles": {
+  "0.0": 0.0003,
+  "0.5": 0.0138,
+  "0.9": 0.0371,
+  "1.0": 0.1544
+ },
+ "near_dup_tested_pairs": 373,
+ "near_dup_tested_cross_group": 162,
+ "near_dup_tested_across_official_split": 34,
+ "near_dup_template_pairs": 599,
+ "near_dup_template_cross_group": 255,
+ "near_dup_template_across_official_split": 62,
+ "official_test_images_with_near_dup_template_in_trainval": 16,
+ "box_side_px_quantiles": {
+  "0.0": 20.0,
+  "0.05": 27.5,
+  "0.25": 31.0,
+  "0.5": 34.4,
+  "0.75": 39.5,
+  "0.95": 54.3,
+  "1.0": 129.4
+ },
+ "boxes_side_lt_32px": 3204
+}

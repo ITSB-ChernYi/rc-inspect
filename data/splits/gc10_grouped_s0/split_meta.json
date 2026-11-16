@@ -1,0 +1,59 @@
+{
+ "mode": "grouped",
+ "seed": 0,
+ "n_items": 2280,
+ "splits": {
+  "train": {
+   "n": 1416,
+   "n_sequences": 440,
+   "boxes_per_class": [
+    194,
+    303,
+    157,
+    213,
+    342,
+    531,
+    205,
+    50,
+    44,
+    85
+   ],
+   "sha256": "0d66f733d184ec59dbd60101c05bbd02055f16455cac72ff2dfc76b68480701d"
+  },
+  "val": {
+   "n": 396,
+   "n_sequences": 249,
+   "boxes_per_class": [
+    65,
+    101,
+    53,
+    69,
+    114,
+    176,
+    70,
+    16,
+    16,
+    29
+   ],
+   "sha256": "be23a20c8538c8f0efbc688e1a65f17e1f00f5765a132c13425816db5c10f983"
+  },
+  "test": {
+   "n": 468,
+   "n_sequences": 261,
+   "boxes_per_class": [
+    65,
+    102,
+    53,
+    70,
+    113,
+    177,
+    69,
+    17,
+    14,
+    28
+   ],
+   "sha256": "3ff9a09b71890780ff634d27fe33c941d24ef1a251e2789983372b725b5cf9d9"
+  }
+ },
+ "sequence_overlap_train_test": 0
+}

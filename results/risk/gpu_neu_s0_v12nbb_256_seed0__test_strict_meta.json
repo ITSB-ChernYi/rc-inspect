@@ -1,0 +1,33 @@
+{
+ "run": "gpu_neu_s0_v12nbb_256_seed0",
+ "pool": "test",
+ "n_images": 360,
+ "n_defective": 360,
+ "n_gt": 845,
+ "size_edges_px2": [
+  2758.0,
+  7056.000000000002
+ ],
+ "lam_f1_val": 0.195,
+ "reps": 200,
+ "delta": 0.1,
+ "order": "asc",
+ "class_escape_crc_class": {
+  "0.1": [
+   0.0577,
+   0.1184,
+   0.0724,
+   0.0829,
+   0.0747,
+   0.0736
+  ]
+ },
+ "class_names": [
+  "crazing",
+  "inclusion",
+  "patches",
+  "pitted_surface",
+  "rolled-in_scale",
+  "scratches"
+ ]
+}

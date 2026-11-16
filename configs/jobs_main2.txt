@@ -1,0 +1,28 @@
+# Revised priority after YOLO-SEC seed 0 (see DEVELOPMENT_LOG D8): component tests with a matched,
+# backbone-only initialisation; then the remaining main jobs.
+neu_s0_v12nbb_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 0
+neu_s0_secnosofl_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 0
+mt_s0_yolo11n_320_seed0|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 0 --imgsz 320
+neu_s0_v12nbbsofl_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --sofl full --bb-only --seed 0
+gc10g_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+neu_s0_hcsa_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true}' --bb-only --seed 0
+neu_s0_ewbifpn_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"neck": "ewbifpn"}' --bb-only --seed 0
+neu_s0_bifpn_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"neck": "bifpn"}' --bb-only --seed 0
+gc10r_s0_yolo11n_640_seed0|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 0 --imgsz 640 --epochs 40
+neu_s0_yolo11n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 1
+neu_s0_yolo12n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 1
+neu_s0_yolo11n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo11n --seed 2
+neu_s0_yolo12n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolo12n --seed 2
+neu_s0_secfull_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 1
+neu_s0_v12nbb_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 1
+mt_s0_yolo11n_320_seed1|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 1 --imgsz 320
+mt_s0_yolo11n_320_seed2|--data /home/user/obj1data/mt_s0/data.yaml --model yolo11n --seed 2 --imgsz 320
+neu_s0_yolov8n_256_seed0|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 0
+gc10g_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_grouped_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40
+gc10r_s0_yolo11n_640_seed1|--data /home/user/obj1data/gc10_random_s0/data.yaml --model yolo11n --seed 1 --imgsz 640 --epochs 40
+neu_s0_yolov8n_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 1
+neu_s0_yolov8n_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --model yolov8n --seed 2
+neu_s0_secfull_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --sofl full --seed 2
+neu_s0_v12nbb_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{}' --bb-only --seed 2
+neu_s0_secnosofl_256_seed1|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 1
+neu_s0_secnosofl_256_seed2|--data /home/user/obj1data/neu_s0/data.yaml --sec '{"hcsa": true, "neck": "ewbifpn"}' --bb-only --seed 2

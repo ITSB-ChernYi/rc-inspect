@@ -1,0 +1,26 @@
+{
+ "NEU-DET": {
+  "input_size": 256,
+  "n_images": 100,
+  "full_ms": 2.9950999887660146,
+  "input_ms": 2.992099995026365
+ },
+ "Magnetic Tile": {
+  "input_size": 320,
+  "n_images": 100,
+  "full_ms": 4.6133499999996275,
+  "input_ms": 4.355749988462776
+ },
+ "GC10-DET": {
+  "input_size": 640,
+  "n_images": 100,
+  "full_ms": 168.99504998582415,
+  "input_ms": 15.751300001284108
+ },
+ "DeepPCB": {
+  "input_size": 640,
+  "n_images": 100,
+  "full_ms": 14.51305000227876,
+  "input_ms": 14.611549995606765
+ }
+}

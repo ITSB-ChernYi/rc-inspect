@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "RC-Inspect: code, split lists, cached predictions and results"
+type: software
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+authors:
+  - family-names: Lim
+    given-names: Chern Yi
+    affiliation: "Monash University Malaysia"
+  - family-names: Lim
+    given-names: Joanne Mun-Yee
+    affiliation: "Monash University Malaysia"
+  - family-names: Kalavally
+    given-names: Vineetha
+    affiliation: "Monash University Malaysia"
+  - family-names: Lim
+    given-names: Wei Sean
+    affiliation: "Intellogic Technology Sdn Bhd"
+keywords:
+  - surface defect detection
+  - conformal risk control
+  - object detection
+  - automated optical inspection
+preferred-citation:
+  type: article
+  title: "RC-Inspect: A lightweight risk-controlled deep learning framework for real-time defect inspection in steel and electronic manufacturing"
+  journal: "Computers and Electrical Engineering"
+  status: submitted
+  authors:
+    - family-names: Lim
+      given-names: Chern Yi
+    - family-names: Lim
+      given-names: Joanne Mun-Yee
+    - family-names: Kalavally
+      given-names: Vineetha
+    - family-names: Lim
+      given-names: Wei Sean

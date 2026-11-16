@@ -1,0 +1,296 @@
+{
+ "_env": {
+  "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+  "cpu_model": "AMD Ryzen 7 5800X 8-Core Processor",
+  "torch": "2.11.0+cu128",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cores": 16
+ },
+ "gpu_neu_s0_yolo11n_256_seed0": {
+  "imgsz": 256,
+  "params": 2598266,
+  "gflops_at_imgsz": 1.023,
+  "checkpoint_mb_fp16": 5.22,
+  "model_only": {
+   "1thr": {
+    "median_ms": 20.560449978802353,
+    "p90_ms": 25.212389999069273
+   },
+   "4thr": {
+    "median_ms": 16.60890004131943,
+    "p90_ms": 18.65131998201832
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.4211999475955963,
+   "inference_ms": 13.00625002477318,
+   "postprocess_ms": 0.764350057579577,
+   "risk_layer_ms": 0.05194998811930418,
+   "quality_gate_ms": 3.530349989887327,
+   "total_ms": 14.214750030077994,
+   "total_with_gate_ms": 17.739699920639396,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_yolo12n_256_seed0": {
+  "imgsz": 256,
+  "params": 2572842,
+  "gflops_at_imgsz": 1.047,
+  "checkpoint_mb_fp16": 5.26,
+  "model_only": {
+   "1thr": {
+    "median_ms": 21.200550021603703,
+    "p90_ms": 22.20810002181679
+   },
+   "4thr": {
+    "median_ms": 19.115249975584447,
+    "p90_ms": 21.018859976902604
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.3945999778807163,
+   "inference_ms": 16.56085002468899,
+   "postprocess_ms": 0.7254499942064285,
+   "risk_layer_ms": 0.04169996827840805,
+   "quality_gate_ms": 3.4675999777391553,
+   "total_ms": 17.74799998383969,
+   "total_with_gate_ms": 21.11515001161024,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_yolov8n_256_seed0": {
+  "imgsz": 256,
+  "params": 3133922,
+  "gflops_at_imgsz": 1.383,
+  "checkpoint_mb_fp16": 6.17,
+  "model_only": {
+   "1thr": {
+    "median_ms": 21.866399969439954,
+    "p90_ms": 22.911699942778796
+   },
+   "4thr": {
+    "median_ms": 13.881249993573874,
+    "p90_ms": 17.265300010330975
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.40704995626583695,
+   "inference_ms": 11.883149913046509,
+   "postprocess_ms": 0.7932500448077917,
+   "risk_layer_ms": 0.05275005241855979,
+   "quality_gate_ms": 3.447399998549372,
+   "total_ms": 13.094050053041428,
+   "total_with_gate_ms": 16.42585004447028,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_secfull_256_seed0": {
+  "imgsz": 256,
+  "params": 2346021,
+  "gflops_at_imgsz": 1.245,
+  "checkpoint_mb_fp16": 4.78,
+  "model_only": {
+   "1thr": {
+    "median_ms": 24.859299999661744,
+    "p90_ms": 26.231940044090152
+   },
+   "4thr": {
+    "median_ms": 18.386200012173504,
+    "p90_ms": 21.692609984893352
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.3724499838426709,
+   "inference_ms": 17.460849951021373,
+   "postprocess_ms": 1.0418500169180334,
+   "risk_layer_ms": 0.053149997256696224,
+   "quality_gate_ms": 3.4021500032395124,
+   "total_ms": 19.078549987170845,
+   "total_with_gate_ms": 22.407099953852594,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_secnosofl_256_seed0": {
+  "imgsz": 256,
+  "params": 2346019,
+  "gflops_at_imgsz": 1.245,
+  "checkpoint_mb_fp16": 4.78,
+  "model_only": {
+   "1thr": {
+    "median_ms": 23.862100031692535,
+    "p90_ms": 24.631429987493902
+   },
+   "4thr": {
+    "median_ms": 17.41490000858903,
+    "p90_ms": 20.78147993888706
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.38899999344721437,
+   "inference_ms": 17.427199985831976,
+   "postprocess_ms": 0.8132000220939517,
+   "risk_layer_ms": 0.049600028432905674,
+   "quality_gate_ms": 3.3658500178717077,
+   "total_ms": 18.69265001732856,
+   "total_with_gate_ms": 22.136750048957765,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_v12nbb_256_seed0": {
+  "imgsz": 256,
+  "params": 2557898,
+  "gflops_at_imgsz": 1.037,
+  "checkpoint_mb_fp16": 5.23,
+  "model_only": {
+   "1thr": {
+    "median_ms": 21.077249955851585,
+    "p90_ms": 21.79879997856915
+   },
+   "4thr": {
+    "median_ms": 20.638949994463474,
+    "p90_ms": 21.270930022001266
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.40710001485422254,
+   "inference_ms": 16.97105000494048,
+   "postprocess_ms": 1.0988499852828681,
+   "risk_layer_ms": 0.05439994856715202,
+   "quality_gate_ms": 3.7459000013768673,
+   "total_ms": 18.48470000550151,
+   "total_with_gate_ms": 22.160500055179,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_hcsa_256_seed0": {
+  "imgsz": 256,
+  "params": 2613773,
+  "gflops_at_imgsz": 1.058,
+  "checkpoint_mb_fp16": 5.35,
+  "model_only": {
+   "1thr": {
+    "median_ms": 22.265300038270652,
+    "p90_ms": 22.592359967529774
+   },
+   "4thr": {
+    "median_ms": 16.9661000254564,
+    "p90_ms": 19.892080011777576
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.34899997990578413,
+   "inference_ms": 15.96270001027733,
+   "postprocess_ms": 0.9187000105157495,
+   "risk_layer_ms": 0.04549999721348286,
+   "quality_gate_ms": 3.3208999666385353,
+   "total_ms": 17.162849952001125,
+   "total_with_gate_ms": 20.477049925830215,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_ewbifpn_256_seed0": {
+  "imgsz": 256,
+  "params": 2290144,
+  "gflops_at_imgsz": 1.224,
+  "checkpoint_mb_fp16": 4.66,
+  "model_only": {
+   "1thr": {
+    "median_ms": 21.949199959635735,
+    "p90_ms": 22.158349922392517
+   },
+   "4thr": {
+    "median_ms": 15.616050048265606,
+    "p90_ms": 18.474810011684895
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.3509499947540462,
+   "inference_ms": 14.138750033453107,
+   "postprocess_ms": 0.8251999970525503,
+   "risk_layer_ms": 0.043350039049983025,
+   "quality_gate_ms": 3.3045500167645514,
+   "total_ms": 15.343200007919222,
+   "total_with_gate_ms": 18.689599994104356,
+   "n_images": 100
+  }
+ },
+ "gpu_neu_s0_bifpn_256_seed0": {
+  "imgsz": 256,
+  "params": 2281491,
+  "gflops_at_imgsz": 1.217,
+  "checkpoint_mb_fp16": 4.63,
+  "model_only": {
+   "1thr": {
+    "median_ms": 20.523049985058606,
+    "p90_ms": 20.682100078556687
+   },
+   "4thr": {
+    "median_ms": 13.718149974010885,
+    "p90_ms": 16.438329964876175
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.3467000206001103,
+   "inference_ms": 12.83660001354292,
+   "postprocess_ms": 0.8411000017076731,
+   "risk_layer_ms": 0.043300038669258356,
+   "quality_gate_ms": 3.3365500275976956,
+   "total_ms": 13.991800078656524,
+   "total_with_gate_ms": 17.347050015814602,
+   "n_images": 100
+  }
+ },
+ "gpu_mt_s0_yolo11n_320_seed0": {
+  "imgsz": 320,
+  "params": 2598023,
+  "gflops_at_imgsz": 1.599,
+  "checkpoint_mb_fp16": 5.21,
+  "model_only": {
+   "1thr": {
+    "median_ms": 26.07845008606091,
+    "p90_ms": 26.488780044019222
+   },
+   "4thr": {
+    "median_ms": 15.51240001572296,
+    "p90_ms": 18.679329962469637
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 0.40434999391436577,
+   "inference_ms": 11.8823999655433,
+   "postprocess_ms": 0.45065005542710423,
+   "risk_layer_ms": 0.04640000406652689,
+   "quality_gate_ms": 5.246599961537868,
+   "total_ms": 12.817850045394152,
+   "total_with_gate_ms": 19.15255014318973,
+   "n_images": 100
+  }
+ },
+ "gpu_gc10g_s0_yolo11n_640_seed0": {
+  "imgsz": 640,
+  "params": 2599238,
+  "gflops_at_imgsz": 6.448,
+  "checkpoint_mb_fp16": 5.23,
+  "model_only": {
+   "1thr": {
+    "median_ms": 87.05595001811162,
+    "p90_ms": 87.71779992384836
+   },
+   "4thr": {
+    "median_ms": 36.67145001236349,
+    "p90_ms": 44.578350079245865
+   }
+  },
+  "end_to_end_4thr": {
+   "preprocess_ms": 1.2101999600417912,
+   "inference_ms": 17.996950016822666,
+   "postprocess_ms": 0.5165000329725444,
+   "risk_layer_ms": 0.10820000898092985,
+   "quality_gate_ms": 182.70634999498725,
+   "total_ms": 19.818699976895005,
+   "total_with_gate_ms": 202.4700500187464,
+   "n_images": 100
+  }
+ }
+}

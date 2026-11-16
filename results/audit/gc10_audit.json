@@ -1,0 +1,62 @@
+{
+ "n_images": 2306,
+ "n_annotation_files": 2280,
+ "n_boxes": 3542,
+ "image_sizes": {
+  "2048x1000": 2306
+ },
+ "images_per_folder_class": {
+  "silk_spot": 650,
+  "water_spot": 289,
+  "welding_line": 273,
+  "crescent_gap": 226,
+  "punching_hole": 219,
+  "inclusion": 216,
+  "oil_spot": 204,
+  "waist_folding": 146,
+  "crease": 52,
+  "rolled_pit": 31
+ },
+ "boxes_per_class": {
+  "silk_spot": 884,
+  "oil_spot": 569,
+  "welding_line": 506,
+  "water_spot": 352,
+  "inclusion": 344,
+  "punching_hole": 324,
+  "crescent_gap": 263,
+  "waist_folding": 142,
+  "rolled_pit": 83,
+  "crease": 74,
+  "UNKNOWN:d": 1
+ },
+ "issue_counts": {
+  "folder class absent from annotation": 73,
+  "no annotation file": 26
+ },
+ "exact_duplicate_file_groups": 0,
+ "exact_duplicate_files": 0,
+ "same_original_name_in_two_folders": 12,
+ "near_dup_pairs_hamming_le_24": 12,
+ "near_dup_pairs_different_orig_name": 0,
+ "near_dup_pairs_within_sequence": 12,
+ "n_sequences": 956,
+ "images_per_sequence_quantiles": {
+  "0.5": 1.0,
+  "0.9": 4.0,
+  "0.99": 20.450000000000045,
+  "1.0": 133.0
+ },
+ "sequences_with_multiple_classes": 118,
+ "box_side_px_quantiles": {
+  "0.0": 24.0,
+  "0.05": 51.8,
+  "0.25": 105.0,
+  "0.5": 267.1,
+  "0.75": 417.9,
+  "0.95": 786.4,
+  "1.0": 1305.5
+ },
+ "boxes_side_lt_32px_native": 16,
+ "boxes_side_lt_32px_at_640_input": 870
+}
