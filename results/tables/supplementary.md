@@ -12,18 +12,18 @@ the three backbone outputs. Weighted BiFPN: bidirectional feature pyramid with e
 loss: modified box-regression terms with a focal classification loss. Values are means ± standard deviations over
 seeds (test partition); escape at the default threshold of 0.25 and review of RC-Inspect ($\alpha=0.10$, $\delta=0.1$,
 false-alarm budget 0.5) are means over 500 calibration/evaluation partitions per seed. GFLOPs at the 256-pixel input
-used for NEU-DET.
+used for NEU-DET; Params and GFLOPs of the fused model, as in Table 5 of the paper.
 
 | Variant | Attention | Neck | Loss | Initialisation | Seeds | Params (M) | GFLOPs (256 px) | mAP@0.5 (%) | mAP@0.5:0.95 (%) | Escape at 0.25 (%) | RC-Inspect: review (%) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| YOLOv12n | - | PAN | default | COCO, all layers | 3 | 2.57 | 1.06 | 72.8 ± 1.1 | 40.1 ± 0.6 | 27.6 ± 0.8 | 53.0 ± 2.6 |
-| YOLOv12n (backbone-only init.) | - | PAN | default | COCO, backbone only | 3 | 2.57 | 1.06 | 58.9 ± 4.1 | 27.8 ± 3.1 | 42.1 ± 4.0 | 63.7 ± 2.8 |
-| Attention only | yes | PAN | default | COCO, backbone only | 1 | 2.63 | 1.08 | 59.2 | 28.5 | 41.5 | 63.7 |
-| BiFPN neck only | - | BiFPN (96 ch.) | default | COCO, backbone only | 1 | 2.29 | 1.24 | 64.1 | 32.0 | 37.6 | 59.1 |
-| Weighted BiFPN neck only | - | weighted BiFPN (96 ch.) | default | COCO, backbone only | 1 | 2.30 | 1.25 | 64.6 | 32.3 | 38.0 | 57.5 |
-| Modified loss only | - | PAN | modified | COCO, backbone only | 1 | 2.57 | 1.06 | 47.6 | 22.1 | 54.5 | 69.5 |
-| YOLOv12n-M (default loss) | yes | weighted BiFPN (96 ch.) | default | COCO, backbone only | 3 | 2.36 | 1.27 | 65.5 ± 0.6 | 33.3 ± 0.4 | 35.4 ± 0.4 | 56.9 ± 3.3 |
-| YOLOv12n-M | yes | weighted BiFPN (96 ch.) | modified | COCO, all matching layers | 3 | 2.36 | 1.27 | 61.7 ± 1.2 | 31.9 ± 0.4 | 41.0 ± 1.8 | 59.1 ± 6.3 |
+| YOLOv12n | - | PAN | default | COCO, all layers | 3 | 2.57 | 1.05 | 72.8 ± 1.1 | 40.1 ± 0.6 | 27.6 ± 0.8 | 53.0 ± 2.6 |
+| YOLOv12n (backbone-only init.) | - | PAN | default | COCO, backbone only | 3 | 2.56 | 1.04 | 58.9 ± 4.1 | 27.8 ± 3.1 | 42.1 ± 4.0 | 63.7 ± 2.8 |
+| Attention only | yes | PAN | default | COCO, backbone only | 1 | 2.61 | 1.06 | 59.2 | 28.5 | 41.5 | 63.7 |
+| BiFPN neck only | - | BiFPN (96 ch.) | default | COCO, backbone only | 1 | 2.28 | 1.22 | 64.1 | 32.0 | 37.6 | 59.1 |
+| Weighted BiFPN neck only | - | weighted BiFPN (96 ch.) | default | COCO, backbone only | 1 | 2.29 | 1.22 | 64.6 | 32.3 | 38.0 | 57.5 |
+| Modified loss only | - | PAN | modified | COCO, backbone only | 1 | 2.56 | 1.04 | 47.6 | 22.1 | 54.5 | 69.5 |
+| YOLOv12n-M (default loss) | yes | weighted BiFPN (96 ch.) | default | COCO, backbone only | 3 | 2.35 | 1.25 | 65.5 ± 0.6 | 33.3 ± 0.4 | 35.4 ± 0.4 | 56.9 ± 3.3 |
+| YOLOv12n-M | yes | weighted BiFPN (96 ch.) | modified | COCO, all matching layers | 3 | 2.35 | 1.25 | 61.7 ± 1.2 | 31.9 ± 0.4 | 41.0 ± 1.8 | 59.1 ± 6.3 |
 
 ## Table S2. Device check
 

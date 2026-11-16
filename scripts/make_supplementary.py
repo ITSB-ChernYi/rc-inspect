@@ -76,15 +76,25 @@ def md(df):
 
 
 def table_s1():
-    arch = json.load(open(f"{RES}/architectures.json"))
+    # complexity of the fused model, from the same file as Table 5 of the paper (latency_d9.json); a variant without
+    # an entry takes it from another variant with the same architecture (the loss does not change the network)
+    lat = json.load(open(f"{RES}/latency_d9.json"))
+    cx, by_arch = {}, {}
+    for key, *_, ak in VARIANTS:
+        e = lat.get(f"gpu_neu_s0_{key}_256_seed0")
+        if e:
+            cx[key] = (e["params"], e["gflops_at_imgsz"])
+            by_arch.setdefault(ak, cx[key])
+    same_build = {"v12nbbsofl": "v12nbb"}  # backbone-only initialisation, only the loss differs
+    arch = {key: cx.get(key) or cx.get(same_build.get(key)) or by_arch[ak] for key, *_, ak in VARIANTS}
     rows = []
     for key, att, neck, loss, init, ak in VARIANTS:
         runs = [f"gpu_neu_s0_{key}_256_seed{s}" for s in range(3) if os.path.exists(f"{RES}/metrics/gpu_neu_s0_{key}_256_seed{s}_test.json")]
         M = [met(r) for r in runs]
         Sm = [summ(r) for r in runs]
         rows.append({"Variant": DETECTORS[key], "Attention": att, "Neck": neck, "Loss": loss, "Initialisation": init,
-                     "Seeds": len(runs), "Params (M)": f"{arch[ak]['params'] / 1e6:.2f}",
-                     "GFLOPs (256 px)": f"{arch[ak]['gflops_256']:.2f}",
+                     "Seeds": len(runs), "Params (M)": f"{arch[key][0] / 1e6:.2f}",
+                     "GFLOPs (256 px)": f"{arch[key][1]:.2f}",
                      "mAP@0.5 (%)": pm([100 * m["map50"] for m in M]),
                      "mAP@0.5:0.95 (%)": pm([100 * m["map50_95"] for m in M]),
                      "Escape at 0.25 (%)": pm([100 * d["inst_escape"] for d, _ in Sm]),
@@ -147,7 +157,7 @@ the three backbone outputs. Weighted BiFPN: bidirectional feature pyramid with e
 loss: modified box-regression terms with a focal classification loss. Values are means ± standard deviations over
 seeds (test partition); escape at the default threshold of 0.25 and review of RC-Inspect ($\\alpha=0.10$, $\\delta=0.1$,
 false-alarm budget 0.5) are means over 500 calibration/evaluation partitions per seed. GFLOPs at the 256-pixel input
-used for NEU-DET.
+used for NEU-DET; Params and GFLOPs of the fused model, as in Table 5 of the paper.
 
 {md(s1)}
 

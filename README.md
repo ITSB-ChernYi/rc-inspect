@@ -104,6 +104,9 @@ Version 1.0.1 adds the prediction sets of 17 runs that were missing from version
 trained weights with `scripts/predict.py`; their mAP values agree with the GPU evaluation in `results/metrics/` to
 the precision reported in the paper.
 
+Version 1.0.2 takes the parameter counts and GFLOPs of Supplementary Table S1 from `results/latency_d9.json`
+(fused models), the same source as Table 5 of the paper; the other values of S1–S3 are unchanged.
+
 ## Licence
 
 Code: MIT licence (`LICENSE`). Split lists, cached predictions and result files: CC BY 4.0. The datasets remain
@@ -112,4 +115,5 @@ under the terms set by their authors.
 ## Citation
 
 See `CITATION.cff`. Please cite the paper and this archive: https://doi.org/10.5281/zenodo.24269095 (all
-versions; v1.0.0 is https://doi.org/10.5281/zenodo.24269096).
+versions; v1.0.0 is https://doi.org/10.5281/zenodo.24269096, v1.0.1 is
+https://doi.org/10.5281/zenodo.24269786).
