@@ -49,7 +49,7 @@ reviewed images counting zero. This table reports the escape among the defective
 without review, which is not guaranteed by the method, and the share of defective images that are accepted.
 Partitions without a feasible operating point (full review) are excluded from the escape among non-reviewed images,
 its 90th percentile and the share of partitions above 10 %, and the seeds are weighted by their number of feasible
-partitions in these three columns (Faster R-CNN on NEU-DET has a feasible point in 79 %, 0.6 % and 100 % of the
+partitions in these three columns, so that the 90th percentile is a weighted mean of the per-seed percentiles (Faster R-CNN on NEU-DET has a feasible point in 79 %, 0.6 % and 100 % of the
 partitions of its three seeds).
 
 | Dataset | Detector | Seeds | Escape, all defective images (%) | Review (%) | Escape among non-reviewed images (%) | 90th percentile (%) | Partitions above 10 % (%) | Defective images accepted (%) |

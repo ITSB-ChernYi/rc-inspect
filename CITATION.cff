@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper and this archive."
 title: "RC-Inspect: code, split lists, cached predictions and results"
 type: software
-version: 1.0.2
-date-released: 2026-11-16
+version: 1.0.3
+date-released: 2026-11-18
 license: MIT
 doi: 10.5281/zenodo.24269095
 repository-code: "https://github.com/ITSB-ChernYi/rc-inspect"

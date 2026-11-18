@@ -75,7 +75,7 @@ python scripts/fig_review_budget.py
 | Tables 7–9, decision rules and their cost | `scripts/analyze_risk.py` | `results/risk/<run>__test*.csv` |
 | Table 10, latency | `scripts/bench_latency.py`, `scripts/bench_gate.py` | `results/latency_*.json` |
 | Table 11, quantisation | `scripts/quant_predict.py`, `scripts/quant_analyze.py` | `results/quant/` |
-| Table 12, acquisition shift | `scripts/analyze_shift.py` | `results/risk/<run>__shift*.csv` |
+| Table 12, acquisition shift | `scripts/analyze_shift.py`, then `scripts/shift_fallback.py` | `results/risk/<run>__shift*.csv`, `results/tables/shift_fallback.csv` |
 | Table 13, imperfect review and related measures | `scripts/analyze_review_extra.py` | `results/risk_extra/` |
 | Fig. 1 | `scripts/fig_architecture.py` | `results/figures/fig_architecture.*` |
 | Figs. 3, 4 and 8 | `scripts/fig_results_redraw.py` | `results/figures/fig3_escape_threshold.*`, `fig4_realised_escape_v2.*`, `fig8_shift.*` |
@@ -107,6 +107,11 @@ the precision reported in the paper.
 Version 1.0.2 takes the parameter counts and GFLOPs of Supplementary Table S1 from `results/latency_d9.json`
 (fused models), the same source as Table 5 of the paper; the other values of S1–S3 are unchanged.
 
+Version 1.0.3 adds `scripts/shift_fallback.py` and its output `results/tables/shift_fallback.csv`, from which Table 12
+of the paper is taken: in the acquisition-shift analysis, calibration draws without an operating point are counted as
+review of every image (zero escape), as in the main analysis, instead of being left out. It also clarifies the caption
+of Supplementary Table S3; no other result changes.
+
 ## Licence
 
 Code: MIT licence (`LICENSE`). Split lists, cached predictions and result files: CC BY 4.0. The datasets remain
@@ -116,4 +121,4 @@ under the terms set by their authors.
 
 See `CITATION.cff`. Please cite the paper and this archive: https://doi.org/10.5281/zenodo.24269095 (all
 versions; v1.0.0 is https://doi.org/10.5281/zenodo.24269096, v1.0.1 is
-https://doi.org/10.5281/zenodo.24269786).
+https://doi.org/10.5281/zenodo.24269786, v1.0.2 is https://doi.org/10.5281/zenodo.24273134).
